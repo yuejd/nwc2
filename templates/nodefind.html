@@ -1,0 +1,39 @@
+{% extends "main.html" %}
+
+{% block title %}
+NodeFind
+{% end %}
+
+{% block section %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-3">
+        <div class="nodefind_form">
+            <div class="form-group">
+                <label>IP</label>
+                <input id="ip" type="text" class="form-control" name="ipaddr" placeholder="IP Address">
+                <label>User Name</label>
+                <input id="username" type="text" class="form-control" name="username" placeholder="User Name">
+                <label>Password</label>
+                <input id="passwd" type="text" class="form-control" name="password" placeholder="Password">
+                <label>Device Type</label>
+                <select id="devtype" name="devtype" class="form-control">
+                  <option>linux</option>
+                  <option>solaris</option>
+                  <option>vmware</option>
+                  <option>hpux</option>
+                  <option>aix</option>
+                </select>
+            </div>
+        <div id="nodefind_bt_div">
+          <button id="nodefind_bt" type="button" class="btn btn-default">NodeFind</button>
+          <div id="nodefind_result_msg">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="nodefind_result" class="container">
+  </div>
+{% end %}

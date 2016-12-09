@@ -1,0 +1,18 @@
+<div class="alert alert-{{div_class}}" role="alert">{{result}}</div>
+<div class="panel-group" id="accordion" role="tablist" a ria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          log
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        {{ log }}
+      </div>
+    </div>
+  </div>
+</div>
+

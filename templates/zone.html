@@ -1,0 +1,43 @@
+{% extends "main.html" %}
+
+{% block title %}
+zone
+{% end %}
+
+{% block section %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-3">
+        <div class="zone_form">
+            <div class="form-group">
+                <label>ZONE name</label>
+                <input id="zonename" type="text" class="form-control" name="zonename" placeholder="Zone Name">
+                <label>WWNs</label>
+                <input id="wwns" type="text" class="form-control" name="wwns" placeholder="wwn;wwn;wwn...">
+                <label>Fid/Vsan</label>
+                <select id="fid_vsan" name="fid_vsan" class="form-control">
+                  <option>fid40</option>
+                  <option>fid5</option>
+                  <option>fid10</option>
+                  <option>fid98</option>
+                  <option>fid100</option>
+                  <option>vsan5</option>
+                  <option>vsan6</option>
+                  <option>vsan2140</option>
+                  <option>vsan20</option>
+                  <option>vsan110</option>
+                  <option>vsan143</option>
+                </select>
+            </div>
+        <div id="zone_bt_div">
+          <button id="zone_bt" type="button" class="btn btn-default">Start</button>
+          <div id="zone_result_msg">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="zone_result" class="container">
+  </div>
+{% end %}

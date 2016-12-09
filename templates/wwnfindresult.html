@@ -1,0 +1,18 @@
+<table class="table table-hover nodefind_table">
+  <thead>
+    <tr><h2><small> WWNfind Output </small></h2></tr>
+    <tr>
+      <th>wwn</th>
+      <th>sw_ip</th>
+      <th>port</th>
+      <th>vsan/fid</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="wwn_info_row">
+      {% for info in wwn %}
+        <td>{{info}}</td>
+      {% end %}
+    </tr>
+  </tbody>
+</table>

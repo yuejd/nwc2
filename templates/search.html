@@ -1,0 +1,48 @@
+{% extends "main.html" %}
+
+{% block title %}
+ZONE
+{% end %}
+
+{% block section %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-md-offset-3">
+        <div class="searchzone_form">
+            <div class="form-group">
+                <label>zone name key word</label>
+                <input id="keyword" type="text" class="form-control" name="zonename" placeholder="key word">
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="fid40_checkbox" value="fid40"> fid40
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="fid5_checkbox" value="fid5"> fid5
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="fid10_checkbox" value="fid10"> fid10
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="fid98_checkbox" value="fid98"> fid98
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="fid100_checkbox" value="fid100"> fid100
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="vsan5_checkbox" value="vsan5"> vsan5
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="vsan6_checkbox" value="vsan6"> vsan6
+                </label>
+            </div>
+        <div id="searchzone_bt_div">
+          <button id="searchzone_bt" type="button" class="btn btn-default">Search zone</button>
+          <div id="searchzone_result_msg">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="searchzone_result" class="container">
+  </div>
+{% end %}

@@ -1,0 +1,24 @@
+<table class="table table-hover nodefind_table">
+  <thead>
+    <tr><h2><small> Nodefind Output </small></h2></tr>
+    <tr>
+      <th>#</th>
+      <th>wwn</th>
+      <th>symbolic</th>
+      <th>state</th>
+      <th>sw_ip</th>
+      <th>port</th>
+      <th>vsan/fid</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for i in xrange(len(wwns)) %}
+    <tr class="wwn_info_row">
+      <td>{{ i }}</td>
+      {% for info in wwns[i] %}
+        <td>{{info}}</td>
+      {% end %}
+    </tr>
+    {% end %}
+  </tbody>
+</table>
