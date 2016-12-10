@@ -518,13 +518,13 @@ def zone_search_brc(ipaddr, username, password, keyword, vsan):
             for i in xrange(len(act_zones)):
                 act_zones[i] = act_zones[i].split('\t')[1]
         else:
-            act_zones = None
+            act_zones = []
         if zones:
             zones = zones.splitlines()
             for i in xrange(len(zones)):
                 zones[i] = zones[i].split('\t')[1]
         else:
-            zones = None
+            zones = []
             return []
         for zonename in act_zones:
             zone_info_list.append([zonename, "yes"])
@@ -573,13 +573,13 @@ def zone_search_cis(ipaddr, username, password, keyword, vsan):
             for i in xrange(len(act_zones)):
                 act_zones[i] = act_zones[i].split()[2]
         else:
-            act_zones = None
+            act_zones = []
         if zones:
             zones = zones.splitlines()
             for i in xrange(len(zones)):
                 zones[i] = zones[i].split()[2]
         else:
-            zones = None
+            zones = []
             return []
         for zonename in act_zones:
             zone_info_list.append([zonename, "yes"])
