@@ -498,6 +498,118 @@ def zone_cis(ipaddr, username, password, zonename, wwns, fabric, vsan):
     else:
         return None
 
+def zone_search_brc(ipaddr, username, password, keyword, vsan):
+    """
+    zone keyword search in brocade
+    parameter: ip address, username, password, keyword, vsan
+    return: a list of zone with keyword
+            [[zonename, activateORnot, [wwn1, wwn2, ...], ...]
+            []
+            None
+    """
+    con = Connection(ipaddr, username, password)
+    cmd = 'cfgactvshow | grep "zone:" | grep "' + keyword + '"; echo "@#$"; zoneshow | grep "zone:" | grep "' + keyword + '"'
+    output = con.ssh_cmds([cmd])
+    zone_info_list = []
+    if output:
+        act_zones, zones = output.split("@#$\n")
+        if act_zones:
+            act_zones = act_zones.splitlines()
+            for i in xrange(len(act_zones)):
+                act_zones[i] = act_zones[i].split('\t')[1]
+        else:
+            act_zones = None
+        if zones:
+            zones = zones.splitlines()
+            for i in xrange(len(zones)):
+                zones[i] = zones[i].split('\t')[1]
+        else:
+            zones = None
+            return []
+        for zonename in act_zones:
+            zone_info_list.append([zonename, "yes"])
+        for zonename in zones:
+            if zonename not in act_zones:
+                zone_info_list.append([zonename, "no"])
+            else:
+                continue
+
+        con = Connection(ipaddr, username, password)
+        cmd = "zoneshow " + "; zoneshow ".join([zone_info_list[i][0] for i in xrange(len(zone_info_list))])
+        output = con.ssh_cmds([cmd])
+        if output:
+            zone_wwns = output.strip().split("\n\n")
+            for i in xrange(len(zone_info_list)):
+                for zone_wwn in zone_wwns:
+                    if "\t"+zone_info_list[i][0]+"\t" in zone_wwn:
+                        wwns = zone_wwn.split("\t"+zone_info_list[i][0]+"\t")[-1].split(";")
+                        wwns = [wwns[j].strip() for j in xrange(len(wwns))]
+                        zone_info_list[i].append(wwns)
+                    else:
+                        continue
+            return zone_info_list
+        else:
+            return None
+    else:
+        return None
+
+def zone_search_cis(ipaddr, username, password, keyword, vsan):
+    """
+    zone keyword search in cisco
+    parameter: ip address, username, password, keyword, vsan
+    return: a list of zone with keyword
+            [[zonename, activateORnot, [wwn1, wwn2, ...], ...]
+            []
+            None
+    """
+    con = Connection(ipaddr, username, password)
+    cmd = 'show zone active vsan ' + vsan + ' | grep "zone name" | grep "' + keyword + '" ; echo "@#$" ; show zone vsan ' + vsan + ' | grep "zone name" | grep "' + keyword + '"'
+    output = con.ssh_cmds([cmd])
+    zone_info_list = []
+    if output:
+        act_zones, zones = output.split("@#$\n")
+        if act_zones:
+            act_zones = act_zones.splitlines()
+            for i in xrange(len(act_zones)):
+                act_zones[i] = act_zones[i].split()[2]
+        else:
+            act_zones = None
+        if zones:
+            zones = zones.splitlines()
+            for i in xrange(len(zones)):
+                zones[i] = zones[i].split()[2]
+        else:
+            zones = None
+            return []
+        for zonename in act_zones:
+            zone_info_list.append([zonename, "yes"])
+        for zonename in zones:
+            if zonename not in act_zones:
+                zone_info_list.append([zonename, "no"])
+            else:
+                continue
+
+        con = Connection(ipaddr, username, password)
+        join_str = " vsan " + vsan + " ; show zone name "
+        cmd = "show zone name " + join_str.join([zone_info_list[i][0] for i in xrange(len(zone_info_list))])
+        output = con.ssh_cmds([cmd])
+        if output:
+            zone_wwns = output.strip().split("\nzone")
+            for i in xrange(len(zone_info_list)):
+                for zone_wwn in zone_wwns:
+                    if " "+zone_info_list[i][0]+" " in zone_wwn:
+                        wwns = zone_wwn.split(" pwwn ")[1:]
+                        wwns = [wwns[j].strip().split()[0] for j in xrange(len(wwns))]
+                        zone_info_list[i].append(wwns)
+                    else:
+                        continue
+            return zone_info_list
+        else:
+            return None
+        
+    else:
+        return None
+
 
 if __name__ == "__main__":
     #out = get_linux_wwn("10.108.106.69", "root", "#1Danger0us")
@@ -518,7 +630,7 @@ if __name__ == "__main__":
     #print out
     #out = get_hpux_info("10.108.178.233", "root", "hp")
     #print out
-    out = get_hpux_wwn("10.108.178.233", "root", "hp")
+    #out = get_hpux_wwn("10.108.178.233", "root", "hp")
     #print out
     #out = get_aix_info("10.108.119.73", "root", "1bmaix")
     #print out
@@ -529,4 +641,5 @@ if __name__ == "__main__":
     #print out
     #out = nodefind_cis("10.103.116.38", "emc", "Emc12345", ["c0:50:76:02:1d:3d:00:2e",  "c0:50:76:02:1d:3d:00:2c","c0:50:76:02:1d:3d:00:2e",  "c0:50:76:02:1d:3d:00:2c"])
     # session will close in this switch
+    #out = zone_search_bro("10.103.116.49", "cd", "password", "jiadi", "5")
     print out

@@ -58,6 +58,7 @@ nodefind_switches = (["10.108.104.124", "user_platform", "password", "brocade"],
                       ["10.103.116.38", "emc", "Emc12345", "cisco"], #cisco aix vsan 110
                       ["10.108.178.27", "emc", "Emc12345", "cisco"], #cisco hp 100
                       ["10.108.238.32", "admin", "Elabxha2016", "cisco"], #cisco xha
+                      ["10.108.238.29", "admin", "Elabxha2016", "cisco"], #cisco xha
                       ["10.108.238.21", "admin", "Elabxha2016", "brocade"], #brocade xha
                       ["10.246.51.213", "emc", "Emc12345", "cisco"], #cisco lab10
                       ["10.103.116.33", "admin", "2baerosmith", "cisco"]) #cisco hp vsan 1
@@ -72,9 +73,9 @@ switches_fab = (["fid40", "10.108.104.124", "PLATFORM_SILO", "x86"],
                  ["vsan5", "10.108.104.14", "VPLEX-A", "core cisco vsan 5"],
                  ["vsan6", "10.108.104.14", "VPLEX-B", "core cisco vsan 6"],
                  ["vsan2140", "10.108.104.14", "WLSV_SILO_A", "x86 cisco vsan 2140"],
-                 ["vsan20", "10.108.238.32", "RP_Large", "ibm xha vsan 20"],
+                 ["vsan20", "10.108.238.29", "RP_Large", "ibm xha vsan 20"],
                  ["vsan100", "10.108.178.27", "Fabric-A", "hp vsan 100"],
                  ["vsan110", "10.103.116.38", "eLabIBM", "ibm vsan 110"],
-                 ["vsan143", "10.108.238.32", "xHA_HPQ_Durham", "xha vsan 143"],
+                 ["vsan143", "10.108.238.29", "xHA_HPQ_Durham", "xha vsan 143"],
                  ["fid101", "10.108.238.21", "xHA_HQP_Durham", "xha fid101"],
                  ["vsan80", "10.246.51.213", "NDM", "lab10 vsan80"])

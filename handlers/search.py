@@ -17,27 +17,38 @@ class SearchHandler(BaseHandler):
         self.render("search.html")
     def post(self):
         keyword = self.get_argument("keyword")
-        checkbox = {}
-        checkbox["fid40"] = self.get_argument("fid40chk")
-        checkbox["fid5"] = self.get_argument("fid5chk")
-        checkbox["fid10"] = self.get_argument("fid10chk")
-        checkbox["fid98"] = self.get_argument("fid98chk")
-        checkbox["fid100"] = self.get_argument("fid100chk")
-        checkbox["vsan5"] = self.get_argument("vsan5chk")
-        checkbox["vsan6"] = self.get_argument("vsan6chk")
-        search_fabric = [fabric for fabric, is_checked in checkbox.iteritems() if is_checked == "true" ]
-        print checkbox
-        print search_fabric
-        fabric_list = map(lambda x, y: x+y, switches_info, nodefind_switches)
-        #from lib.nodefind import server_nodefind
-        #rtn_nodefind = server_nodefind(ip, username, passwd, devtype, nodefind_switches)
-        #print rtn_nodefind
-        #if rtn_nodefind:
-        #    self.write(self.render_string("nodefindresult.html",
-        #                                  wwns = rtn_nodefind))
-        #else:
-        #    self.write("<div class='alert alert-success' role='alert'>" + "no wwns find, please check your hosts" + "</div>")
-        self.write("<div class='alert alert-success' role='alert'>" + "search test" + "</div>")
+        fid_vsan = self.get_argument("fid_vsan")
+
+        for fab_info in switches_fab:
+            if fab_info[0] == fid_vsan:
+                fabric = fab_info[2]
+                switch_ip = fab_info[1]
+                break
+            else: continue
+        for switch in nodefind_switches:
+            if switch[0] == switch_ip:
+                switch_user = switch[1]
+                switch_passwd = switch[2]
+                switch_type = switch[3]
+                break
+            else: continue
+
+        if "cisco" == switch_type:
+            vsan = fid_vsan[4:]
+            from lib.nwc_lib import zone_search_cis
+            zone_search_func = zone_search_cis
+        else:
+            vsan = None
+            from lib.nwc_lib import zone_search_brc
+            zone_search_func = zone_search_brc
+        
+        rtn_zone_search = zone_search_func(switch_ip, switch_user, switch_passwd, keyword, vsan)
+        if rtn_zone_search:
+            self.write(self.render_string("zonesearchresult.html",
+                                          zones = rtn_zone_search))
+        else:
+            self.write("<div class='alert alert-danger' role='alert'>" + "no zone found, please check the switch" + "</div>")
+
 
 routes = [
     (r"/search", SearchHandler)

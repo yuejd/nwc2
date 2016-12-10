@@ -1048,3 +1048,1220 @@
 20161208 15:29:20 - Copy complete.
 20161208 15:29:20 - 10.108.238.29: execute ssh commands: show zone name jiadi_zone_test vsan 20
 20161208 15:29:20 - Zone not present
+20161209 08:51:17 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 08:51:17 -  zone:	jiadi_hp113_vnx_a3	
+20161209 08:51:17 -  zone:	jiadi_hp113_vnx_b3	
+20161209 08:51:17 -  zone:	jiadi_hp115_vnx_a3	
+20161209 08:51:17 -  zone:	jiadi_hp115_vnx_b3	
+20161209 08:51:17 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 08:51:17 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 08:51:17 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 08:51:17 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 08:51:17 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 08:51:17 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 08:51:17 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 08:51:17 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 08:51:17 - @#$
+20161209 08:51:17 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 08:51:17 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 08:51:17 -  zone:	jiadi_hp113_vnx_a3	
+20161209 08:51:17 -  zone:	jiadi_hp113_vnx_b3	
+20161209 08:51:17 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 08:51:17 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 08:51:17 -  zone:	jiadi_hp115_vnx_a3	
+20161209 08:51:17 -  zone:	jiadi_hp115_vnx_b3	
+20161209 08:51:17 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 08:51:17 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 08:51:17 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 08:51:17 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 08:51:17 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 08:51:17 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 08:51:17 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 08:51:17 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 08:51:17 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 08:51:17 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 08:51:17 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 08:51:17 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 08:51:17 -  zone:	jiadi_hp113_vnx_a3	
+20161209 08:51:17 -  zone:	jiadi_hp113_vnx_b3	
+20161209 08:51:17 -  zone:	jiadi_hp115_vnx_a3	
+20161209 08:51:17 -  zone:	jiadi_hp115_vnx_b3	
+20161209 08:51:17 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 08:51:17 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 08:51:17 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 08:51:17 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 08:51:17 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 08:51:17 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 08:51:17 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 08:51:17 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:17:19 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadihh"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadihh"
+20161209 13:17:19 - @#$
+20161209 13:48:40 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 13:48:40 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:48:40 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:48:40 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:48:40 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:48:40 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:48:40 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:48:40 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:48:40 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:48:40 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:48:40 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:48:40 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:48:40 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:48:40 - @#$
+20161209 13:48:40 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 13:48:40 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 13:48:40 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:48:40 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:48:40 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 13:48:40 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 13:48:40 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:48:40 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:48:40 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 13:48:40 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 13:48:40 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 13:48:40 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 13:48:40 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:48:40 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:48:40 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:48:40 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:48:40 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:48:40 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:48:40 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:48:40 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:48:40 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:48:40 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:48:40 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:48:40 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:48:40 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:48:40 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:48:40 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:48:40 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:48:40 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:48:40 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:48:40 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:48:40 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:51:22 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 13:51:22 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:51:22 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:51:22 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:51:22 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:51:22 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:51:22 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:51:22 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:51:22 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:51:22 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:51:22 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:51:22 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:51:22 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:51:22 - @#$
+20161209 13:51:22 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 13:51:22 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 13:51:22 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:51:22 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:51:22 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 13:51:22 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 13:51:22 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:51:22 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:51:22 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 13:51:22 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 13:51:22 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 13:51:22 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 13:51:22 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:51:22 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:51:22 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:51:22 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:51:22 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:51:22 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:51:22 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:51:22 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:51:22 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:51:22 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:51:22 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:51:22 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:51:22 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:51:22 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:51:22 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:51:22 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:51:22 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:51:22 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:51:22 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:51:22 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:52:17 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 13:52:17 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:52:17 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:52:17 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:52:17 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:52:17 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:52:17 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:52:17 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:52:17 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:52:17 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:52:17 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:52:17 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:52:17 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:52:17 - @#$
+20161209 13:52:17 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 13:52:17 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 13:52:17 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:52:17 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:52:17 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 13:52:17 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 13:52:17 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:52:17 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:52:17 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 13:52:17 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 13:52:17 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 13:52:17 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 13:52:17 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:52:17 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:52:17 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:52:17 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:52:17 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:52:17 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:52:17 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:52:17 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:52:17 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:52:17 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:52:17 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:52:17 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:52:17 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:52:17 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:52:17 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:52:17 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:52:17 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:52:17 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:52:17 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:52:17 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:53:44 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 13:53:44 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:53:44 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:53:44 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:53:44 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:53:44 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:53:44 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:53:44 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:53:44 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:53:44 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:53:44 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:53:44 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:53:44 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:53:44 - @#$
+20161209 13:53:44 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 13:53:44 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 13:53:44 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:53:44 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:53:44 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 13:53:44 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 13:53:44 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:53:44 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:53:44 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 13:53:44 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 13:53:44 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 13:53:44 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 13:53:44 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:53:44 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:53:44 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:53:44 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:53:44 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:53:44 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:53:44 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:53:44 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:53:44 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:53:44 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:53:44 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:53:44 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:53:44 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:53:44 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:53:44 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:53:44 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:53:44 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:53:44 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:53:44 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:53:44 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:57:29 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 13:57:29 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:57:29 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:57:29 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:57:29 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:57:29 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:57:29 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:57:29 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:57:29 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:57:29 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:57:29 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:57:29 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:57:29 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:57:29 - @#$
+20161209 13:57:29 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 13:57:29 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 13:57:29 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:57:29 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:57:29 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 13:57:29 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 13:57:29 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:57:29 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:57:29 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 13:57:29 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 13:57:29 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 13:57:29 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 13:57:29 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:57:29 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:57:29 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:57:29 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:57:29 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:57:29 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:57:29 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:57:29 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:57:29 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:57:29 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:57:29 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:57:29 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:57:29 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:57:29 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:57:29 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:57:29 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:57:29 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:57:29 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:57:29 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:57:29 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:58:53 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 13:58:53 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:58:53 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:58:53 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:58:53 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:58:53 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:58:53 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:58:53 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:58:53 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:58:53 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:58:53 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:58:53 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:58:53 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:58:53 - @#$
+20161209 13:58:53 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 13:58:53 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 13:58:53 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:58:53 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:58:53 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 13:58:53 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 13:58:53 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:58:53 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:58:53 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 13:58:53 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 13:58:53 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 13:58:53 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 13:58:53 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:58:53 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:58:53 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:58:53 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:58:53 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:58:53 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:58:53 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:58:53 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 13:58:53 -  zone:	jiadi_hp113_vnx_a3	
+20161209 13:58:53 -  zone:	jiadi_hp113_vnx_b3	
+20161209 13:58:53 -  zone:	jiadi_hp115_vnx_a3	
+20161209 13:58:53 -  zone:	jiadi_hp115_vnx_b3	
+20161209 13:58:53 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 13:58:53 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 13:58:53 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 13:58:53 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 13:58:53 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 13:58:53 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 13:58:53 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 13:58:53 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:02:16 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 14:02:16 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:02:16 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:02:16 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:02:16 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:02:16 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:02:16 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:02:16 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:02:16 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:02:16 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:02:16 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:02:16 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:02:16 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:02:16 - @#$
+20161209 14:02:16 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 14:02:16 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 14:02:16 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:02:16 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:02:16 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 14:02:16 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 14:02:16 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:02:16 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:02:16 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 14:02:16 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 14:02:16 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 14:02:16 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 14:02:16 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:02:16 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:02:16 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:02:16 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:02:16 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:02:16 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:02:16 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:02:16 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:02:16 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:02:16 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:02:16 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:02:16 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:02:16 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:02:16 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:02:16 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:02:16 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:02:16 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:02:16 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:02:16 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:02:16 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:06:43 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadihh"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadihh"
+20161209 14:06:43 - @#$
+20161209 14:06:56 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 14:06:56 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:06:56 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:06:56 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:06:56 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:06:56 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:06:56 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:06:56 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:06:56 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:06:56 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:06:56 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:06:56 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:06:56 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:06:56 - @#$
+20161209 14:06:56 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 14:06:56 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 14:06:56 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:06:56 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:06:56 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 14:06:56 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 14:06:56 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:06:56 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:06:56 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 14:06:56 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 14:06:56 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 14:06:56 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 14:06:56 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:06:56 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:06:56 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:06:56 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:06:56 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:06:56 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:06:56 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:06:56 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:06:56 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:06:56 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:06:56 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:06:56 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:06:56 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:06:56 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:06:56 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:06:56 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:06:56 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:06:56 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:06:56 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:06:56 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:13:00 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 14:13:00 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:13:00 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:13:00 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:13:00 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:13:00 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:13:00 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:13:00 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:13:00 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:13:00 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:13:00 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:13:00 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:13:00 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:13:00 - @#$
+20161209 14:13:00 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 14:13:00 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 14:13:00 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:13:00 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:13:00 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 14:13:00 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 14:13:00 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:13:00 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:13:00 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 14:13:00 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 14:13:00 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 14:13:00 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 14:13:00 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:13:00 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:13:00 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:13:00 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:13:00 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:13:00 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:13:00 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:13:00 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:13:00 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:13:00 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:13:00 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:13:00 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:13:00 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:13:00 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:13:00 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:13:00 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:13:00 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:13:00 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:13:00 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:13:00 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:29:16 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 14:29:16 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:29:16 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:29:16 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:29:16 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:29:16 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:29:16 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:29:16 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:29:16 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:29:16 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:29:16 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:29:16 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:29:16 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:29:16 - @#$
+20161209 14:29:16 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 14:29:16 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 14:29:16 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:29:16 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:29:16 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 14:29:16 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 14:29:16 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:29:16 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:29:16 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 14:29:16 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 14:29:16 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 14:29:16 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 14:29:16 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:29:16 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:29:16 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:29:16 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:29:16 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:29:16 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:29:16 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:29:16 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:29:16 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:29:16 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:29:16 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:29:16 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:29:16 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:29:16 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:29:16 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:29:16 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:29:16 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:29:16 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:29:16 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:29:16 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:29:18 - 10.103.116.49: execute ssh commands: zoneshow jiadi_hp113_vnx_a3; zoneshow jiadi_hp113_vnx_b3; zoneshow jiadi_hp115_vnx_a3; zoneshow jiadi_hp115_vnx_b3; zoneshow jiadi_hp153_vmax098_7e0; zoneshow jiadi_hp153_vmax098_8h0; zoneshow jiadi_hp155_vmax098_7e0; zoneshow jiadi_hp155_vmax098_8h0; zoneshow jiadi_sgh36_h7h8_vmax098; zoneshow jiadi_sgh36h7_vnx129; zoneshow jiadi_sgh36h8_vnx129; zoneshow jiadi_unix_xha_esxi_vnx129; zoneshow jiadi_hp113_vmax098_7e0; zoneshow jiadi_hp113_vmax098_8e0; zoneshow jiadi_hp115_vmax098_7e0; zoneshow jiadi_hp115_vmax098_8e0; zoneshow jiadi_hp119_vnx139_a10; zoneshow jiadi_hp119_vnx139_b10; zoneshow jiadi_hp121_vnx139_a10; zoneshow jiadi_hp121_vnx139_b10
+20161209 14:29:18 -  zone:	jiadi_hp113_vnx_a3	
+20161209 14:29:18 - 		10:00:00:00:c9:88:03:c4; VNXV2_116139_A316g
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp113_vnx_b3	
+20161209 14:29:18 - 		10:00:00:00:c9:88:03:c5; VNXV2_116139_B316g
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp115_vnx_a3	
+20161209 14:29:18 - 		10:00:00:00:c9:88:05:74; VNXV2_116139_A316g
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp115_vnx_b3	
+20161209 14:29:18 - 		10:00:00:00:c9:88:05:75; VNXV2_116139_B316g
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 14:29:18 - 		50:01:43:80:06:2d:6b:d4; VMAX_098_7e_P0
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 14:29:18 - 		50:01:43:80:06:2d:6b:d6; VMAX_098_8e_P0
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 14:29:18 - 		50:01:43:80:06:2d:26:a0; VMAX_098_7e_P0
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 14:29:18 - 		50:01:43:80:06:2d:26:a2; VMAX_098_8e_P0
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 14:29:18 - 		21:00:00:24:ff:57:03:f8; 21:00:00:24:ff:57:03:f9; 
+20161209 14:29:18 - 		10:00:8c:7c:ff:30:de:d2; 10:00:8c:7c:ff:30:de:d3; 
+20161209 14:29:18 - 		50:00:09:72:c0:01:89:98; 50:00:09:72:c0:01:89:5c
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 14:29:18 - 		21:00:00:24:ff:57:03:f8; 21:00:00:24:ff:57:03:f9; 
+20161209 14:29:18 - 		50:06:01:61:46:e0:01:9c; 50:06:01:69:46:e0:01:9c
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 14:29:18 - 		10:00:8c:7c:ff:30:de:d2; 10:00:8c:7c:ff:30:de:d3; 
+20161209 14:29:18 - 		50:06:01:61:46:e0:01:9c; 50:06:01:69:46:e0:01:9c
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 14:29:18 - 		10:00:00:00:c9:9e:f5:e8; 10:00:00:00:c9:9e:f5:e9; 
+20161209 14:29:18 - 		10:00:00:00:c9:9e:f5:46; 10:00:00:00:c9:9e:f5:47; 
+20161209 14:29:18 - 		50:06:01:61:46:e0:01:9c; 50:06:01:69:46:e0:01:9c
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 14:29:18 - 		10:00:00:00:c9:88:03:c4; VMAX_098_7e_P0
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 14:29:18 - 		10:00:00:00:c9:88:03:c5; VMAX_098_8e_P0
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 14:29:18 - 		10:00:00:00:c9:88:05:74; VMAX_098_7e_P0
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 14:29:18 - 		10:00:00:00:c9:88:05:75; VMAX_098_8e_P0
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 14:29:18 - 		50:01:43:80:01:45:47:e6; 50:06:01:62:08:64:30:84
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 14:29:18 - 		50:01:43:80:01:45:47:e4; 50:06:01:6a:08:64:30:84
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 14:29:18 - 		50:01:43:80:01:45:b1:e6; 50:06:01:62:08:64:30:84
+20161209 14:29:18 - 
+20161209 14:29:18 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 14:29:18 - 		50:01:43:80:01:45:af:12; 50:06:01:6a:08:64:30:84
+20161209 14:29:18 - 
+20161209 15:02:13 - 10.103.116.49: execute ssh commands: cfgactvshow | grep "zone:" | grep "jiadi"; echo "@#$"; zoneshow | grep "zone:" | grep "jiadi"
+20161209 15:02:13 -  zone:	jiadi_hp113_vnx_a3	
+20161209 15:02:13 -  zone:	jiadi_hp113_vnx_b3	
+20161209 15:02:13 -  zone:	jiadi_hp115_vnx_a3	
+20161209 15:02:13 -  zone:	jiadi_hp115_vnx_b3	
+20161209 15:02:13 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 15:02:13 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 15:02:13 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 15:02:13 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 15:02:13 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 15:02:13 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 15:02:13 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 15:02:13 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 15:02:13 - @#$
+20161209 15:02:13 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 15:02:13 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 15:02:13 -  zone:	jiadi_hp113_vnx_a3	
+20161209 15:02:13 -  zone:	jiadi_hp113_vnx_b3	
+20161209 15:02:13 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 15:02:13 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 15:02:13 -  zone:	jiadi_hp115_vnx_a3	
+20161209 15:02:13 -  zone:	jiadi_hp115_vnx_b3	
+20161209 15:02:13 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 15:02:13 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 15:02:13 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 15:02:13 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 15:02:13 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 15:02:13 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 15:02:13 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 15:02:13 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 15:02:13 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 15:02:13 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 15:02:13 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 15:02:13 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 15:02:13 -  zone:	jiadi_hp113_vnx_a3	
+20161209 15:02:13 -  zone:	jiadi_hp113_vnx_b3	
+20161209 15:02:13 -  zone:	jiadi_hp115_vnx_a3	
+20161209 15:02:13 -  zone:	jiadi_hp115_vnx_b3	
+20161209 15:02:13 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 15:02:13 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 15:02:13 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 15:02:13 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 15:02:13 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 15:02:13 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 15:02:13 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 15:02:13 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 15:02:15 - 10.103.116.49: execute ssh commands: zoneshow jiadi_hp113_vnx_a3; zoneshow jiadi_hp113_vnx_b3; zoneshow jiadi_hp115_vnx_a3; zoneshow jiadi_hp115_vnx_b3; zoneshow jiadi_hp153_vmax098_7e0; zoneshow jiadi_hp153_vmax098_8h0; zoneshow jiadi_hp155_vmax098_7e0; zoneshow jiadi_hp155_vmax098_8h0; zoneshow jiadi_sgh36_h7h8_vmax098; zoneshow jiadi_sgh36h7_vnx129; zoneshow jiadi_sgh36h8_vnx129; zoneshow jiadi_unix_xha_esxi_vnx129; zoneshow jiadi_hp113_vmax098_7e0; zoneshow jiadi_hp113_vmax098_8e0; zoneshow jiadi_hp115_vmax098_7e0; zoneshow jiadi_hp115_vmax098_8e0; zoneshow jiadi_hp119_vnx139_a10; zoneshow jiadi_hp119_vnx139_b10; zoneshow jiadi_hp121_vnx139_a10; zoneshow jiadi_hp121_vnx139_b10
+20161209 15:02:15 -  zone:	jiadi_hp113_vnx_a3	
+20161209 15:02:15 - 		10:00:00:00:c9:88:03:c4; VNXV2_116139_A316g
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp113_vnx_b3	
+20161209 15:02:15 - 		10:00:00:00:c9:88:03:c5; VNXV2_116139_B316g
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp115_vnx_a3	
+20161209 15:02:15 - 		10:00:00:00:c9:88:05:74; VNXV2_116139_A316g
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp115_vnx_b3	
+20161209 15:02:15 - 		10:00:00:00:c9:88:05:75; VNXV2_116139_B316g
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp153_vmax098_7e0	
+20161209 15:02:15 - 		50:01:43:80:06:2d:6b:d4; VMAX_098_7e_P0
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp153_vmax098_8h0	
+20161209 15:02:15 - 		50:01:43:80:06:2d:6b:d6; VMAX_098_8e_P0
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp155_vmax098_7e0	
+20161209 15:02:15 - 		50:01:43:80:06:2d:26:a0; VMAX_098_7e_P0
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp155_vmax098_8h0	
+20161209 15:02:15 - 		50:01:43:80:06:2d:26:a2; VMAX_098_8e_P0
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_sgh36_h7h8_vmax098	
+20161209 15:02:15 - 		21:00:00:24:ff:57:03:f8; 21:00:00:24:ff:57:03:f9; 
+20161209 15:02:15 - 		10:00:8c:7c:ff:30:de:d2; 10:00:8c:7c:ff:30:de:d3; 
+20161209 15:02:15 - 		50:00:09:72:c0:01:89:98; 50:00:09:72:c0:01:89:5c
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_sgh36h7_vnx129	
+20161209 15:02:15 - 		21:00:00:24:ff:57:03:f8; 21:00:00:24:ff:57:03:f9; 
+20161209 15:02:15 - 		50:06:01:61:46:e0:01:9c; 50:06:01:69:46:e0:01:9c
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_sgh36h8_vnx129	
+20161209 15:02:15 - 		10:00:8c:7c:ff:30:de:d2; 10:00:8c:7c:ff:30:de:d3; 
+20161209 15:02:15 - 		50:06:01:61:46:e0:01:9c; 50:06:01:69:46:e0:01:9c
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_unix_xha_esxi_vnx129	
+20161209 15:02:15 - 		10:00:00:00:c9:9e:f5:e8; 10:00:00:00:c9:9e:f5:e9; 
+20161209 15:02:15 - 		10:00:00:00:c9:9e:f5:46; 10:00:00:00:c9:9e:f5:47; 
+20161209 15:02:15 - 		50:06:01:61:46:e0:01:9c; 50:06:01:69:46:e0:01:9c
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp113_vmax098_7e0	
+20161209 15:02:15 - 		10:00:00:00:c9:88:03:c4; VMAX_098_7e_P0
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp113_vmax098_8e0	
+20161209 15:02:15 - 		10:00:00:00:c9:88:03:c5; VMAX_098_8e_P0
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp115_vmax098_7e0	
+20161209 15:02:15 - 		10:00:00:00:c9:88:05:74; VMAX_098_7e_P0
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp115_vmax098_8e0	
+20161209 15:02:15 - 		10:00:00:00:c9:88:05:75; VMAX_098_8e_P0
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp119_vnx139_a10	
+20161209 15:02:15 - 		50:01:43:80:01:45:47:e6; 50:06:01:62:08:64:30:84
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp119_vnx139_b10	
+20161209 15:02:15 - 		50:01:43:80:01:45:47:e4; 50:06:01:6a:08:64:30:84
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp121_vnx139_a10	
+20161209 15:02:15 - 		50:01:43:80:01:45:b1:e6; 50:06:01:62:08:64:30:84
+20161209 15:02:15 - 
+20161209 15:02:15 -  zone:	jiadi_hp121_vnx139_b10	
+20161209 15:02:15 - 		50:01:43:80:01:45:af:12; 50:06:01:6a:08:64:30:84
+20161209 15:02:15 - 
+20161210 03:41:23 - 10.108.104.12: execute ssh commands: show zone active vsan 5 | grep "zone name" | grep "5" ; echo "@#$" ; show zone vsan 5 | grep "zone name" | grep "jiadi"
+20161210 03:41:23 - zone name VPLEX_SUN_Cluster_x86_sun102012 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_ESX_WNH13_H4 vsan 5
+20161210 03:41:23 - zone name RP_CFG1_SITE_1_XIO_762_X4SC1fc2 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096052_vmhba9_292 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096054_vmhba9_292 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096056_vmhba9_292 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096058_vmhba9_292 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096052_vmhba9_579 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096054_vmhba9_579 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096056_vmhba9_579 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096058_vmhba9_579 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_Linux_LXH5SER2_P6_C1 vsan 5
+20161210 03:41:23 - zone name RP_CFG2_SITE_1_RPAs_WWN vsan 5
+20161210 03:41:23 - zone name VPLEX_SUN_Cluster_Sparc_sun103034 vsan 5
+20161210 03:41:23 - zone name VPLEX_SUN_Cluster_Sparc_sun103032 vsan 5
+20161210 03:41:23 - zone name VPLEX_SUN_Cluster_x86_sun102014 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_VMW_VMH13-H12 vsan 5
+20161210 03:41:23 - zone name RP412_Site1_All_RPAs_Cfg1_CiscoA vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_lxh5ser4_port1 vsan 5
+20161210 03:41:23 - zone name RP_CFG2_SITE_3_VNX2_162_SPA2_SPB2 vsan 5
+20161210 03:41:23 - zone name RP_Site1_VNX528_Bot_SPA6_SPB6 vsan 5
+20161210 03:41:23 - zone name RP_CFG2_SITE_3_RPAs_WWN vsan 5
+20161210 03:41:23 - zone name RP_SITE_3_VNX548_SPA6_SPB6 vsan 5
+20161210 03:41:23 - zone name PST097056_CX4 vsan 5
+20161210 03:41:23 - zone name PST097058_CX4 vsan 5
+20161210 03:41:23 - zone name PST097060_CX4 vsan 5
+20161210 03:41:23 - zone name PST097062_CX4 vsan 5
+20161210 03:41:23 - zone name RP_Site1_JTDN4_8E0_Symm3050 vsan 5
+20161210 03:41:23 - zone name RP41_VNX548_AIX119092_fcs0_SPA6 vsan 5
+20161210 03:41:23 - zone name RP41_VNX548_AIX119092_fcs2_SPB6 vsan 5
+20161210 03:41:23 - zone name RP_ESX112_VNX548_SPA6_B6 vsan 5
+20161210 03:41:23 - zone name VMH13H12_VNX0548_RP_Site1 vsan 5
+20161210 03:41:23 - zone name RP41_AIX119022_fcs1_ARG1 vsan 5
+20161210 03:41:23 - zone name RP41_AIX119022_fcs3_ARG1 vsan 5
+20161210 03:41:23 - zone name RP41_VMAXV2_AIX119092_fcs0_8E0 vsan 5
+20161210 03:41:23 - zone name RP41_VMAXV2_AIX119092_fcs2_8E0 vsan 5
+20161210 03:41:23 - zone name RP_SITE_1_Cfg2_VNX548_SPA6_SPB6 vsan 5
+20161210 03:41:23 - zone name RP_RPA_ARRAYS_BE vsan 5
+20161210 03:41:23 - zone name RP_CFG1_SITE1_VNX269_SPB1-0 vsan 5
+20161210 03:41:23 - zone name RP41_VNX2_AIX119092_fcs0_SPB10 vsan 5
+20161210 03:41:23 - zone name RP41_VNX2_AIX119092_fcs2_SPB10 vsan 5
+20161210 03:41:23 - zone name RP_Kevin_hpint161_fclp8_VPLEX_ARGO_F2_B0_FC03 vsan 5
+20161210 03:41:23 - zone name RP_Kevin_hpint161_fclp8_VNX2_96188_SPB0_1 vsan 5
+20161210 03:41:23 - zone name RP_Kevin_hpint161_fclp8_VPLEX_ARGO_33_A0_FC03 vsan 5
+20161210 03:41:23 - zone name RP_ALL_Mercury_Site2_VNX269 vsan 5
+20161210 03:41:23 - zone name RP_ALL_Mercury_Site1_VNX269 vsan 5
+20161210 03:41:23 - zone name RP_ALL_Mercury_Site1_VNX548_SPA6_SPB6 vsan 5
+20161210 03:41:23 - zone name RP_ALL_Mercury_Site2_VNX548_SPA6_SPB6 vsan 5
+20161210 03:41:23 - zone name RP_CFG1_SITE_1_KH436_SPA2 vsan 5
+20161210 03:41:23 - zone name RP_ALL_Mercury_Site2_VMAX3050_8E0 vsan 5
+20161210 03:41:23 - zone name RP_ALL_Mercury_Site1_VMAX3050_8E0 vsan 5
+20161210 03:41:23 - zone name RP41_VNX2_AIX119026_fcs0_SPA12 vsan 5
+20161210 03:41:23 - zone name RP41_VNX2_AIX119026_fcs1_SPB12 vsan 5
+20161210 03:41:23 - zone name RP_cfg2_vmh13h12_VNX62 vsan 5
+20161210 03:41:23 - zone name Vplex_Linux_SGH31H17_Vnxe_SPB2 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_SUN_sun102145_qlc1_BFS vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_StandAlone_x86_sun102030 vsan 5
+20161210 03:41:23 - zone name RP_LINUX_SGH31H17_KH173 vsan 5
+20161210 03:41:23 - zone name PST097106_HBA2_0_DMX579_7C0 vsan 5
+20161210 03:41:23 - zone name PST097106_HBA2_0_DMX579_14D0 vsan 5
+20161210 03:41:23 - zone name PST097106_HBA2_1_DMX579_7C0 vsan 5
+20161210 03:41:23 - zone name PST097106_HBA2_1_DMX579_14D0 vsan 5
+20161210 03:41:23 - zone name vplex_rhel7_lxh4ser5_1 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_Windows_Snow_wnh6h9 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_SUN_x86_sun102133_cisco vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_WIN_WNH6_H13 vsan 5
+20161210 03:41:23 - zone name Xiaoli_Xenserver_wnh5h11_site1 vsan 5
+20161210 03:41:23 - zone name RP_SOH3SER4_Conf2_VNX2_Hellya vsan 5
+20161210 03:41:23 - zone name RP_SOH3SER4_Conf2_VPLEX21_Hellya_Site1 vsan 5
+20161210 03:41:23 - zone name vplex_21_lxh3ser1_san5_hellya vsan 5
+20161210 03:41:23 - zone name RP_KC_WNH6H11_VPLEX9521 vsan 5
+20161210 03:41:23 - zone name RP_KC_WNH6H11_VNX96150 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_Windows_Snow_LXH3SER10 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_SUN_SOH12SER5_P0 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096052_vmhba9_3050 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096054_vmhba9_3050 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096056_vmhba9_3050 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096058_vmhba9_3050 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_JTDN4_Sym3050_6E0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_JTDN4_Sym3050_10E0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_JAEN4_Sym0579_7A0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_VNX548_Bot_A2 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_VNX548_Bot_B2 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096052_vmhba9_212 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096052_vmhba9_1559 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096052_vmhba9_2347 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096054_vmhba9_212 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096054_vmhba9_1559 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_CX4014_Bot_A2 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_CX4014_Bot_B2 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096054_vmhba9_2347 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096056_vmhba9_212 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_JAEN4_Sym0579_14C0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_VNXe3200_spa3_96_173 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096056_vmhba9_1559 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096056_vmhba9_2347 vsan 5
+20161210 03:41:23 - zone name alex_hp122_fcd1_vplex vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RPRED_VNX548Bot_spb2 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RPRED_Symm0579_7c0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RPRED_Symm0579_14b0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RPRED_Symm3050_8G0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RPRED_Symm3050_6G0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_XIO_Dir35_FC02 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_XIO_Dir35_FC03 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_XIO_Dir36_FC02 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_XIO_Dir36_FC03 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_XIO_Dir37_FC02 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_XIO_Dir37_FC03 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_XIO_Dir38_FC02 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_XIO_Dir38_FC03 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_JTDN4_Sym3050_6E0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_JTDN4_Sym3050_10E0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_JAEN4_Sym0579_7A0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_VNX548_Bot_A2 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_VNX548_Bot_B2 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_JAEN4_Sym0579_14C0 vsan 5
+20161210 03:41:23 - zone name VPLEX_RED1_linux_kaihua_lxh7ser8_c5 vsan 5
+20161210 03:41:23 - zone name Vplex_Xiaoli_Xenserver_wnh5h11_site1 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_Windows_Snow_LXH3SER10 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_YI_LXH8SER6 vsan 5
+20161210 03:41:23 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 03:41:23 - zone name VPLEX_win_wnh14h4_redwood_c_5 vsan 5
+20161210 03:41:23 - zone name vplex_vmh13h4_red_LL vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_AIX119095_fcs0 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_AIX119095_fcs2 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_HP_hpint055_ae54_Donnie vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RPRED_CX4960_SPA2 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RPRED_CX4960_Spb2 vsan 5
+20161210 03:41:23 - zone name Xiaoli_soh12ser3_fc_vplex_site1 vsan 5
+20161210 03:41:23 - zone name YI_Redwood_WNH15P2 vsan 5
+20161210 03:41:23 - zone name Xiaoli_soh12ser3_vplex_ottawa_site1 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 03:41:23 - zone name Xiaoli_soh12ser3_vnx184 vsan 5
+20161210 03:41:23 - zone name Xiaoli_soh12ser3_vnx142 vsan 5
+20161210 03:41:23 - zone name VPLEX_win_wnh2h6_redwood_c_5 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_HP_hpint070_0567_Donnie vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RPRED_VNX548Bot_spa2 vsan 5
+20161210 03:41:23 - zone name Vplex_Redwood_sgh31h17_site1 vsan 5
+20161210 03:41:23 - zone name RP_ALL_CFG2_RPRedwood_FE vsan 5
+20161210 03:41:23 - zone name RP_ALL_CFG2_RPRedwood_BE vsan 5
+20161210 03:41:23 - zone name henry_wnh13h12_CX4014 vsan 5
+20161210 03:41:23 - zone name Xiaoli_xenserver_wnh5h11_CX4014 vsan 5
+20161210 03:41:23 - zone name Redwood_AIX119022_fcs1_Metro vsan 5
+20161210 03:41:23 - zone name Redwood_AIX119022_fcs3_Metro vsan 5
+20161210 03:41:23 - zone name henry_vmh13h12_RPredwood vsan 5
+20161210 03:41:23 - zone name VPLEX_metropoint_wnh14h4_vnx2_c_5 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096058_vmhba9_212 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096058_vmhba9_1559 vsan 5
+20161210 03:41:23 - zone name Core_ESX_elab096058_vmhba9_2347 vsan 5
+20161210 03:41:23 - zone name RP_vnx548_linux_kaihua_lxh7ser8_spa6 vsan 5
+20161210 03:41:23 - zone name Kevin_RP_HP_hpint160_VNX548_CG1_Target vsan 5
+20161210 03:41:23 - zone name Kevin_RP_HP_sglhp113_VNX548_CG1_Target vsan 5
+20161210 03:41:23 - zone name RP41_VMAX050_AIX119092_fcs0_9E0 vsan 5
+20161210 03:41:23 - zone name RP41_VMAX050_AIX119092_fcs2_9E0 vsan 5
+20161210 03:41:23 - zone name Kevin_RP_HP_hpint160_VMAX050_CG1_Target vsan 5
+20161210 03:41:23 - zone name Kevin_RP_HP_sglhp113_VMAX050_CG1_Target vsan 5
+20161210 03:41:23 - zone name MW_WNH6H11_CG1_SITE1_VNX548 vsan 5
+20161210 03:41:23 - zone name MW_WNH6H11_CG1_SITE1_VMAX050 vsan 5
+20161210 03:41:23 - zone name RP_SUN10226_VNX7600_target vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_AIX119062_fcs0 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_AIX119062_fcs2 vsan 5
+20161210 03:41:23 - zone name RPRedwood_AIX119062_fcs0 vsan 5
+20161210 03:41:23 - zone name RPRedwood_AIX119062_fcs2 vsan 5
+20161210 03:41:23 - zone name RPVNX162_AIX119092_fcs0 vsan 5
+20161210 03:41:23 - zone name RPVNX162_AIX119092_fcs2 vsan 5
+20161210 03:41:23 - zone name RP_vmax3050_linux_kaihua_lxh7ser8_c5 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_VNX3504_229_spa1_96_90 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_VNX3504_229_spb1_96_90 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_VNX7600_NYC_spa vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_ARG1_VNX7600_NYC_spb vsan 5
+20161210 03:41:23 - zone name VPLEX_AIX119066_fcs0_ARG vsan 5
+20161210 03:41:23 - zone name VPLEX_AIX119066_fcs1_ARG vsan 5
+20161210 03:41:23 - zone name VPLEX_AIX119066_fcs2_ARG vsan 5
+20161210 03:41:23 - zone name VPLEX_AIX119066_fcs3_ARG vsan 5
+20161210 03:41:23 - zone name Henry_wnh13h12_qle_VMAX3050 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_CX4014_Bot_A6 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_CX4014_Bot_B6 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_pLinux119152_host1 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_pLinux119152_host2 vsan 5
+20161210 03:41:23 - zone name pLinux119152_host1_ARG vsan 5
+20161210 03:41:23 - zone name pLinux119152_host2_ARG vsan 5
+20161210 03:41:23 - zone name Soh1ser6_emulex_vplex_redwood_A vsan 5
+20161210 03:41:23 - zone name Soh1ser6_emulex_site1_vnx184 vsan 5
+20161210 03:41:23 - zone name VPLEX_ARG_WIN_WNH10H4 vsan 5
+20161210 03:41:23 - zone name Vplex_Win_WNH6H15_Yingde vsan 5
+20161210 03:41:23 - zone name VPLEX_RED_VMW_VMH13-H12 vsan 5
+20161210 03:41:23 - zone name VPLEX_RED_lxh5ser4_port1 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_AIX119064_fcs0 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_AIX119064_fcs2 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_AIX119066_fcs0 vsan 5
+20161210 03:41:23 - zone name VPLEX_Redwood_AIX119066_fcs2 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_Xtremio566_fc1 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_Xtremio566_fc2 vsan 5
+20161210 03:41:23 - zone name VPLEX_Argonaut_AIX119064_fcs0 vsan 5
+20161210 03:41:23 - zone name VPLEX_Argonaut_AIX119064_fcs2 vsan 5
+20161210 03:41:23 - zone name VPLEX_Argonaut_AIX119095_fcs0 vsan 5
+20161210 03:41:23 - zone name VPLEX_Argonaut_AIX119095_fcs2 vsan 5
+20161210 03:41:23 - zone name Vplex_Argonaut_WNH6H15_site1 vsan 5
+20161210 03:41:23 - zone name donnie_SGH26H1_BL8_p0_vs2_Site1 vsan 5
+20161210 03:41:23 - zone name donnie_SGH26H1_BL8_p1_vs2_Site1 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 03:41:23 - zone name VPLEX-site1-vs6-win2016-Yuping vsan 5
+20161210 03:41:23 - zone name VPLEX-site1-vs2-win2016-Yuping vsan 5
+20161210 03:41:23 - zone name VPLEX-site1-vs6-win2016-Yuping_port2 vsan 5
+20161210 03:41:23 - zone name VPLEX-site1-vs2-win2016-Yuping_port2 vsan 5
+20161210 03:41:23 - zone name AIX119109_VPLEX vsan 5
+20161210 03:41:23 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 03:41:23 - zone name Vplex_lxh7ser8_site1 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_JIAN4_Sym1176_9E0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_JIAN4_Sym1176_10F0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_JIAN4_Sym1176_7G0 vsan 5
+20161210 03:41:23 - zone name VPLEX_CORE_RED1_JIAN4_Sym1176_8H0 vsan 5
+20161210 03:41:23 - zone name Reynold_AIX119068_Redwood_A_fc2 vsan 5
+20161210 03:41:23 - zone name Reynold_AIX119068_Redwood_A_fc0 vsan 5
+20161210 03:41:23 - zone name WNH6H11_VPLEX_Site1 vsan 5
+20161210 03:41:23 - zone name Reynold_AIX119068_Argonaut1_fc2 vsan 5
+20161210 03:41:23 - zone name donnie_SGH26H1_BL8_rp_redwood_site1_p0 vsan 5
+20161210 03:41:23 - zone name donnie_SGH26H1_BL8_rp_redwood_site1_p1 vsan 5
+20161210 03:41:23 - zone name Reynold_AIX119068_Argonaut1_fc0 vsan 5
+20161210 03:41:23 - zone name donnie_SGH26H1_BL8_rp_vnx2_p0 vsan 5
+20161210 03:41:23 - zone name donnie_SGH26H1_BL8_rp_vnx2_p1 vsan 5
+20161210 03:41:23 - zone name Reynold_AIX119058_Redwood_A_fc2 vsan 5
+20161210 03:41:23 - zone name Reynold_AIX119058_Redwood_A_fc0 vsan 5
+20161210 03:41:23 - zone name RP_CFG1_SITE_1_XIO_566_X1SC1fc2 vsan 5
+20161210 03:41:23 - zone name RP_CFG1_SITE_1_XIO_566_X1SC2fc2 vsan 5
+20161210 03:41:23 - zone name VNX548_Encap_AIX119064_fcs0 vsan 5
+20161210 03:41:23 - zone name donnie_SGH26H1_BL8_p1_Redwood_Site1_new vsan 5
+20161210 03:41:23 - zone name donnie_SGH26H1_BL8_p0_Redwood_Site1_new vsan 5
+20161210 03:41:23 - zone name VPLEX_vs6_SGH30H12_port1_YP vsan 5
+20161210 03:41:23 - zone name VPLEX_vs6_SGH30H12_port2_YP vsan 5
+20161210 03:41:23 - zone name Jerry_UCSB200M4_VPLEX vsan 5
+20161210 03:41:23 - zone name IVRZ_AIX_IVR_AIX119144_FCS0 vsan 5
+20161210 03:41:23 - zone name IVRZ_VIO_IVR_121_FCS14 vsan 5
+20161210 03:41:23 - zone name IVRZ_VIO_IVR_121_FCS15 vsan 5
+20161210 03:41:23 - zone name IVRZ_VIO_IVR_122_FCS14 vsan 5
+20161210 03:41:23 - zone name IVRZ_VIO_IVR_122_FCS15 vsan 5
+20161210 03:41:23 - zone name IVRZ_VIO_IVR_AIX119061_FCS2_VPLEX vsan 5
+20161210 03:41:23 - zone name IVRZ_VIO_IVR_AIX119061_FCS6_VPLEX vsan 5
+20161210 03:41:23 - zone name IVRZ_VIO_IVR_AIX119067_FCS0_VPLEX vsan 5
+20161210 03:41:23 - zone name IVRZ_VIO_IVR_AIX119067_FCS2_VPLEX vsan 5
+20161210 03:41:23 - zone name IVRZ_aix119252_Gatekeeper vsan 5
+20161210 03:41:23 - @#$
+20161210 03:41:23 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 03:41:23 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 03:41:23 - zone name jiadi_hpint160_redwood vsan 5
+20161210 03:41:23 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 03:41:23 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 03:41:23 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 03:41:23 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 03:43:43 - 10.108.104.12: execute ssh commands: show zone active vsan 5 | grep "zone name" | grep "jiadi" ; echo "@#$" ; show zone vsan 5 | grep "zone name" | grep "jiadi"
+20161210 03:43:43 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 03:43:43 - @#$
+20161210 03:43:43 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 03:43:43 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 03:43:43 - zone name jiadi_hpint160_redwood vsan 5
+20161210 03:43:43 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 03:43:43 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 03:43:43 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 03:43:43 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 04:11:13 - 10.108.104.12: execute ssh commands: show zone active vsan 5 | grep "zone name" | grep "jiadi" ; echo "@#$" ; show zone vsan 5 | grep "zone name" | grep "jiadi"
+20161210 04:11:13 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:11:13 - @#$
+20161210 04:11:13 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:11:13 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:11:13 - zone name jiadi_hpint160_redwood vsan 5
+20161210 04:11:13 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 04:11:13 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 04:11:13 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 04:11:13 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 04:18:20 - 10.108.104.12: execute ssh commands: show zone active vsan 5 | grep "zone name" | grep "jiadi" ; echo "@#$" ; show zone vsan 5 | grep "zone name" | grep "jiadi"
+20161210 04:18:20 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:18:20 - @#$
+20161210 04:18:20 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:18:20 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:18:20 - zone name jiadi_hpint160_redwood vsan 5
+20161210 04:18:20 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 04:18:20 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 04:18:20 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 04:18:20 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 04:18:21 - 10.108.104.12: execute ssh commands: show zone name jiadi_lxh2ser5_site1 vsan 5 ; show zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp123_vplex_argo_p2 vsan 5 ; show zone name jiadi_sglhp117_vplex_argo_p2 vsan 5 ; show zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5 ; show zone name jiadi_hpint160_redwood vsan 5 ; show zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5 ; show zone name jiadi_sglhp117_rp_vmax091 vsan 5 ; show zone name jiadi_sglhp117_rp_xio70 vsan 5 ; show zone name jiadi_hpint160_rpcfg1_vplex vsan 5 ; show zone name jiadi_hpint160_rpcfg2_vnx2
+20161210 04:18:21 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:18:21 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:18:21 -   pwwn c0:01:44:87:83:08:83:00
+20161210 04:18:21 -   pwwn c0:01:44:87:82:35:03:00
+20161210 04:18:21 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:18:21 -   pwwn 10:00:00:00:c9:88:03:c5 [hpint113_h1p1]
+20161210 04:18:21 -   pwwn 50:00:14:42:f0:03:08:02
+20161210 04:18:21 -   pwwn 50:00:14:42:e0:02:35:02
+20161210 04:18:21 -   pwwn 50:00:14:42:e0:03:08:02
+20161210 04:18:21 -   pwwn 50:00:14:42:f0:02:35:02
+20161210 04:18:21 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:18:21 -   pwwn 50:01:43:80:01:45:b1:4c [hpint123_h1p0]
+20161210 04:18:21 -   pwwn c0:01:44:87:83:08:82:00
+20161210 04:18:21 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:18:21 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:18:21 -   pwwn c0:01:44:87:83:08:81:00
+20161210 04:18:21 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:18:21 -   pwwn 50:01:43:80:01:45:b1:4c [hpint123_h1p0]
+20161210 04:18:21 -   pwwn 50:00:14:42:70:03:33:03
+20161210 04:18:21 -   pwwn 50:00:14:42:60:02:f2:03
+20161210 04:18:21 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:18:21 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:18:21 -   pwwn c0:01:44:87:82:35:02:00
+20161210 04:18:21 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:18:21 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:18:21 -   pwwn 50:00:14:42:60:03:33:02
+20161210 04:18:21 -   pwwn 50:00:14:42:70:02:f2:02
+20161210 04:18:21 - zone name jiadi_hpint160_redwood vsan 5
+20161210 04:18:21 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:18:21 -   pwwn 50:00:14:42:f0:03:08:02
+20161210 04:18:21 -   pwwn 50:00:14:42:e0:02:35:02
+20161210 04:18:21 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 04:18:21 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:18:21 -   pwwn 50:00:14:42:60:03:33:02
+20161210 04:18:21 -   pwwn 50:00:14:42:70:02:f2:02
+20161210 04:18:21 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 04:18:21 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:18:21 -   pwwn 50:00:09:72:c0:01:6d:18
+20161210 04:18:21 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 04:18:21 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:18:21 -   pwwn 51:4f:0c:50:17:d7:68:01
+20161210 04:18:21 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 04:18:21 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:18:21 -   pwwn 50:00:14:42:60:03:33:03
+20161210 04:18:21 -   pwwn 50:00:14:42:70:02:f2:03
+20161210 04:18:21 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 04:18:21 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:18:21 -   pwwn 50:06:01:62:08:60:3f:9f
+20161210 04:18:21 -   pwwn 50:06:01:6a:08:60:3f:9f
+20161210 04:32:06 - 10.108.104.12: execute ssh commands: show zone active vsan 5 | grep "zone name" | grep "jiadi" ; echo "@#$" ; show zone vsan 5 | grep "zone name" | grep "jiadi"
+20161210 04:32:06 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:32:06 - @#$
+20161210 04:32:06 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:32:06 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:32:06 - zone name jiadi_hpint160_redwood vsan 5
+20161210 04:32:06 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 04:32:06 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 04:32:06 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 04:32:06 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 04:32:07 - 10.108.104.12: execute ssh commands: show zone name jiadi_lxh2ser5_site1 vsan 5 ; show zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp123_vplex_argo_p2 vsan 5 ; show zone name jiadi_sglhp117_vplex_argo_p2 vsan 5 ; show zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5 ; show zone name jiadi_hpint160_redwood vsan 5 ; show zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5 ; show zone name jiadi_sglhp117_rp_vmax091 vsan 5 ; show zone name jiadi_sglhp117_rp_xio70 vsan 5 ; show zone name jiadi_hpint160_rpcfg1_vplex vsan 5 ; show zone name jiadi_hpint160_rpcfg2_vnx2
+20161210 04:32:07 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:32:07 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:32:07 -   pwwn c0:01:44:87:83:08:83:00
+20161210 04:32:07 -   pwwn c0:01:44:87:82:35:03:00
+20161210 04:32:07 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:32:07 -   pwwn 10:00:00:00:c9:88:03:c5 [hpint113_h1p1]
+20161210 04:32:07 -   pwwn 50:00:14:42:f0:03:08:02
+20161210 04:32:07 -   pwwn 50:00:14:42:e0:02:35:02
+20161210 04:32:07 -   pwwn 50:00:14:42:e0:03:08:02
+20161210 04:32:07 -   pwwn 50:00:14:42:f0:02:35:02
+20161210 04:32:07 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:32:07 -   pwwn 50:01:43:80:01:45:b1:4c [hpint123_h1p0]
+20161210 04:32:07 -   pwwn c0:01:44:87:83:08:82:00
+20161210 04:32:07 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:32:07 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:32:07 -   pwwn c0:01:44:87:83:08:81:00
+20161210 04:32:07 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:32:07 -   pwwn 50:01:43:80:01:45:b1:4c [hpint123_h1p0]
+20161210 04:32:07 -   pwwn 50:00:14:42:70:03:33:03
+20161210 04:32:07 -   pwwn 50:00:14:42:60:02:f2:03
+20161210 04:32:07 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:32:07 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:32:07 -   pwwn c0:01:44:87:82:35:02:00
+20161210 04:32:07 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:32:07 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:32:07 -   pwwn 50:00:14:42:60:03:33:02
+20161210 04:32:07 -   pwwn 50:00:14:42:70:02:f2:02
+20161210 04:32:07 - zone name jiadi_hpint160_redwood vsan 5
+20161210 04:32:07 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:32:07 -   pwwn 50:00:14:42:f0:03:08:02
+20161210 04:32:07 -   pwwn 50:00:14:42:e0:02:35:02
+20161210 04:32:07 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 04:32:07 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:32:07 -   pwwn 50:00:14:42:60:03:33:02
+20161210 04:32:07 -   pwwn 50:00:14:42:70:02:f2:02
+20161210 04:32:07 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 04:32:07 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:32:07 -   pwwn 50:00:09:72:c0:01:6d:18
+20161210 04:32:07 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 04:32:07 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:32:07 -   pwwn 51:4f:0c:50:17:d7:68:01
+20161210 04:32:07 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 04:32:07 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:32:07 -   pwwn 50:00:14:42:60:03:33:03
+20161210 04:32:07 -   pwwn 50:00:14:42:70:02:f2:03
+20161210 04:32:07 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 04:32:07 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:32:07 -   pwwn 50:06:01:62:08:60:3f:9f
+20161210 04:32:07 -   pwwn 50:06:01:6a:08:60:3f:9f
+20161210 04:34:03 - 10.108.104.12: execute ssh commands: show zone active vsan 5 | grep "zone name" | grep "jiadi" ; echo "@#$" ; show zone vsan 5 | grep "zone name" | grep "jiadi"
+20161210 04:34:03 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:34:03 - @#$
+20161210 04:34:03 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:34:03 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:34:03 - zone name jiadi_hpint160_redwood vsan 5
+20161210 04:34:03 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 04:34:03 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 04:34:03 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 04:34:03 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 04:34:04 - 10.108.104.12: execute ssh commands: show zone name jiadi_lxh2ser5_site1 vsan 5 ; show zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5 ; show zone name jiadi_sglhp123_vplex_argo_p2 vsan 5 ; show zone name jiadi_sglhp117_vplex_argo_p2 vsan 5 ; show zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5 ; show zone name jiadi_hpint160_redwood vsan 5 ; show zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5 ; show zone name jiadi_sglhp117_rp_vmax091 vsan 5 ; show zone name jiadi_sglhp117_rp_xio70 vsan 5 ; show zone name jiadi_hpint160_rpcfg1_vplex vsan 5 ; show zone name jiadi_hpint160_rpcfg2_vnx2
+20161210 04:34:04 - zone name jiadi_lxh2ser5_site1 vsan 5
+20161210 04:34:04 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:34:04 -   pwwn c0:01:44:87:83:08:83:00
+20161210 04:34:04 -   pwwn c0:01:44:87:82:35:03:00
+20161210 04:34:04 - zone name jiadi_sglhp113_vplex_redwood_p2 vsan 5
+20161210 04:34:04 -   pwwn 10:00:00:00:c9:88:03:c5 [hpint113_h1p1]
+20161210 04:34:04 -   pwwn 50:00:14:42:f0:03:08:02
+20161210 04:34:04 -   pwwn 50:00:14:42:e0:02:35:02
+20161210 04:34:04 -   pwwn 50:00:14:42:e0:03:08:02
+20161210 04:34:04 -   pwwn 50:00:14:42:f0:02:35:02
+20161210 04:34:04 - zone name jiadi_sglhp123_vplex_redwood_p2 vsan 5
+20161210 04:34:04 -   pwwn 50:01:43:80:01:45:b1:4c [hpint123_h1p0]
+20161210 04:34:04 -   pwwn c0:01:44:87:83:08:82:00
+20161210 04:34:04 - zone name jiadi_sglhp117_vplex_redwood_p2 vsan 5
+20161210 04:34:04 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:34:04 -   pwwn c0:01:44:87:83:08:81:00
+20161210 04:34:04 - zone name jiadi_sglhp123_vplex_argo_p2 vsan 5
+20161210 04:34:04 -   pwwn 50:01:43:80:01:45:b1:4c [hpint123_h1p0]
+20161210 04:34:04 -   pwwn 50:00:14:42:70:03:33:03
+20161210 04:34:04 -   pwwn 50:00:14:42:60:02:f2:03
+20161210 04:34:04 - zone name jiadi_sglhp117_vplex_argo_p2 vsan 5
+20161210 04:34:04 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:34:04 -   pwwn c0:01:44:87:82:35:02:00
+20161210 04:34:04 - zone name jiadi_lxh2ser5_vplexVS2_site1 vsan 5
+20161210 04:34:04 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:34:04 -   pwwn 50:00:14:42:60:03:33:02
+20161210 04:34:04 -   pwwn 50:00:14:42:70:02:f2:02
+20161210 04:34:04 - zone name jiadi_hpint160_redwood vsan 5
+20161210 04:34:04 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:34:04 -   pwwn 50:00:14:42:f0:03:08:02
+20161210 04:34:04 -   pwwn 50:00:14:42:e0:02:35:02
+20161210 04:34:04 - zone name jiadi_lxh2ser5_vplex_s21a2b vsan 5
+20161210 04:34:04 -   pwwn 10:00:00:05:33:26:e9:b8
+20161210 04:34:04 -   pwwn 50:00:14:42:60:03:33:02
+20161210 04:34:04 -   pwwn 50:00:14:42:70:02:f2:02
+20161210 04:34:04 - zone name jiadi_sglhp117_rp_vmax091 vsan 5
+20161210 04:34:04 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:34:04 -   pwwn 50:00:09:72:c0:01:6d:18
+20161210 04:34:04 - zone name jiadi_sglhp117_rp_xio70 vsan 5
+20161210 04:34:04 -   pwwn 50:01:43:80:01:45:af:36 [hpint117_h1p1]
+20161210 04:34:04 -   pwwn 51:4f:0c:50:17:d7:68:01
+20161210 04:34:04 - zone name jiadi_hpint160_rpcfg1_vplex vsan 5
+20161210 04:34:04 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:34:04 -   pwwn 50:00:14:42:60:03:33:03
+20161210 04:34:04 -   pwwn 50:00:14:42:70:02:f2:03
+20161210 04:34:04 - zone name jiadi_hpint160_rpcfg2_vnx2 vsan 5
+20161210 04:34:04 -   pwwn 50:06:0b:00:00:fd:64:96
+20161210 04:34:04 -   pwwn 50:06:01:62:08:60:3f:9f
+20161210 04:34:04 -   pwwn 50:06:01:6a:08:60:3f:9f
+20161210 06:35:51 - 10.108.238.32: execute ssh commands: show zone active vsan 20 | grep "zone name" | grep "jiadi" ; echo "@#$" ; show zone vsan 20 | grep "zone name" | grep "jiadi"
+20161210 06:35:51 - zone name jiadi_hp_ndm_101102_vmax098 vsan 20
+20161210 06:35:51 - zone name jiadi_hp_ndm_101102_vmax996 vsan 20
+20161210 06:35:51 - zone name jiadi_x239103_vmax996 vsan 20
+20161210 06:35:51 - zone name jiadi_x239103_vmax098 vsan 20
+20161210 06:35:51 - zone name jiadi_x239108_vmax098 vsan 20
+20161210 06:35:51 - zone name jiadi_x239108_vmax996 vsan 20
+20161210 06:36:51 - 10.108.238.32: execute ssh commands: show zone active vsan 143 | grep "zone name" | grep "jiadi" ; echo "@#$" ; show zone vsan 143 | grep "zone name" | grep "jiadi"

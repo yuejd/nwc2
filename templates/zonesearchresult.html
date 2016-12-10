@@ -1,0 +1,27 @@
+<div class="col-md-6 col-md-offset-2">
+<table class="table table-hover zone_table">
+  <thead>
+    <tr><h2><small> Search Output </small></h2></tr>
+    <tr>
+      <th>#</th>
+      <th>zonename</th>
+      <th>active</th>
+      <th>wwn</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for i in xrange(len(zones)) %}
+    <tr class="zone_info_row">
+      <td>{{ i }}</td>
+      <td>{{ zones[i][0] }}</td>
+      <td>{{ zones[i][1] }}</td>
+      <td>
+        {% for wwn in zones[i][2] %}
+          {{wwn}}<br>
+        {% end %}
+      </td>
+    </tr>
+    {% end %}
+  </tbody>
+</table>
+</div>

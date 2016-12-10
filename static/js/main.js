@@ -90,13 +90,7 @@ searchzone_req = function(){
     $.post("/search", {
                         _xsrf:getCookie("_xsrf"),
                         keyword:$("#keyword").val(),
-                        fid40chk:$("#fid40_checkbox").prop("checked"),
-                        fid5chk:$("#fid5_checkbox").prop("checked"),
-                        fid10chk:$("#fid10_checkbox").prop("checked"),
-                        fid98chk:$("#fid98_checkbox").prop("checked"),
-                        fid100chk:$("#fid100_checkbox").prop("checked"),
-                        vsan5chk:$("#vsan5_checkbox").prop("checked"),
-                        vsan6chk:$("#vsan6_checkbox").prop("checked")
+                        fid_vsan:$("#fid_vsan").val()
                         },
                       function(data,textStatus){
       $("#searchzone_result_msg").html("");
@@ -138,11 +132,9 @@ $(document).ready(function(){
 
   $("#nodefind_bt").click(nodefind_req);
   $("#wwnfind_bt").click(wwnfind_req);
-//  $("#searchzone_bt").click(searchzone_req);
+  $("#searchzone_bt").click(searchzone_req);
   $("#zone_bt").click(zoning_req);
   $("#delete_bt").click(delete_zone_req);
-//  $("#search_bt").click(search_req);
-//  $("#del_zoning_bt").click(del_zone_req);
 
 
 });

@@ -12,7 +12,6 @@ from base import BaseHandler
 import sys
 sys.path.append("..")
 from lib.config import nodefind_switches, switches_fab
-from lib.utils import trans_wwn
 
 class DeleteZoneHandler(BaseHandler):
     def get(self):

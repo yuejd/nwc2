@@ -1,11 +1,24 @@
 {% extends "main.html" %}
 
 {% block title %}
-Jiadi's Lab tool
+Jiadi's Lab tools
 {% end %}
 
 {% block section %}
-<div class="col-md-offset-2">
-    <p><h3><font color="#000">Welcome, currently nodefind, wwnfind, zone, delete functions are working...</font></h3></p>
+<div class="col-md-offset-2 index_msg">
+    <p><h3>Currently nodefind, wwnfind, zone, delete, search functions are enabled.</h3></p>
+    <p><h3>More functions is comming soon...</h3></p>
+    <p><h4>
+        <br>
+        nodefind: get switch ports the specified host connected to.
+        <br>
+        wwnfind:  get switch port the specified wwn connected to.
+        <br>
+        zone:     zoning.
+        <br>
+        delete:   delete zoning.
+        <br>
+        search:   search zone with keyword in specified fid/vsan.
+    </h4></p>
 </div>
 {% end %}
