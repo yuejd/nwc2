@@ -603,6 +603,8 @@ def zone_search_cis(ipaddr, username, password, keyword, vsan):
                         zone_info_list[i].append(wwns)
                     else:
                         continue
+                if len(zone_info_list[i]) < 3:
+                    zone_info_list[i].append([])
             return zone_info_list
         else:
             return None

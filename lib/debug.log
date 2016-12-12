@@ -2265,3 +2265,587 @@
 20161210 06:35:51 - zone name jiadi_x239108_vmax098 vsan 20
 20161210 06:35:51 - zone name jiadi_x239108_vmax996 vsan 20
 20161210 06:36:51 - 10.108.238.32: execute ssh commands: show zone active vsan 143 | grep "zone name" | grep "jiadi" ; echo "@#$" ; show zone vsan 143 | grep "zone name" | grep "jiadi"
+20161212 05:57:09 - 10.108.104.14: execute ssh commands: show zone active vsan 6 | grep "zone name" | grep "119" ; echo "@#$" ; show zone vsan 6 | grep "zone name" | grep "119"
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119025_fcs1 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119025_fcs3 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119096_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119096_fcs2 vsan 6
+20161212 05:57:09 - zone name AIX119060_Encap_VNX2 vsan 6
+20161212 05:57:09 - zone name Redwood_AIX119023_fcs1_Metro vsan 6
+20161212 05:57:09 - zone name Redwood_AIX119023_fcs3_Metro vsan 6
+20161212 05:57:09 - zone name jiadi_sglhp119_vplex_redwood_p2 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV2_AIX119093_fcs0_8E1 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV2_AIX119093_fcs2_8E1 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV1_AIX119093_fcs0_7F0 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV1_AIX119093_fcs2_7F0 vsan 6
+20161212 05:57:09 - zone name RP41_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 05:57:09 - zone name RP41_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 05:57:09 - zone name RP412_VNXe2_AIX119093_fcs0_SPA3 vsan 6
+20161212 05:57:09 - zone name RP412_VNXe2_AIX119093_fcs2_SPB3 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119063_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119063_fcs2 vsan 6
+20161212 05:57:09 - zone name RPRedwood_AIX119063_fcs0 vsan 6
+20161212 05:57:09 - zone name RPRedwood_AIX119063_fcs2 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_pLinux119152_host3 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_pLinux119152_host4 vsan 6
+20161212 05:57:09 - zone name pLinux119152_host3 vsan 6
+20161212 05:57:09 - zone name pLinux119152_host3_ARG vsan 6
+20161212 05:57:09 - zone name pLinux119152_host4_ARG vsan 6
+20161212 05:57:09 - zone name RP_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 05:57:09 - zone name RP_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 05:57:09 - zone name RP_VNXe2_AIX119093_fcs0 vsan 6
+20161212 05:57:09 - zone name RP_VNXe2_AIX119093_fcs2 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119069_Redwood_A_fc2 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119069_Redwood_A_fc0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119065_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119065_fcs2 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119067_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119067_fcs2 vsan 6
+20161212 05:57:09 - zone name VPLEX_Argonaut_AIX119065_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Argonaut_AIX119065_fcs2 vsan 6
+20161212 05:57:09 - zone name VPLEX_Argonaut_AIX119096_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Argonaut_AIX119096_fcs2 vsan 6
+20161212 05:57:09 - zone name jiadi_sglhp119_vplex_argo_p2 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119069_Argonaut2_fc2 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119069_Argonaut2_fc0 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119059_Redwood_A_fc0 vsan 6
+20161212 05:57:09 - zone name Alex_sglhp119_vplex_site2_p2 vsan 6
+20161212 05:57:09 - zone name IVRZ_AIX_IVR_AIX119144_FCS1 vsan 6
+20161212 05:57:09 - @#$
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119025_fcs1 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119025_fcs3 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119096_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119096_fcs2 vsan 6
+20161212 05:57:09 - zone name AIX119060_Encap_VNX2 vsan 6
+20161212 05:57:09 - zone name Redwood_AIX119023_fcs1_Metro vsan 6
+20161212 05:57:09 - zone name Redwood_AIX119023_fcs3_Metro vsan 6
+20161212 05:57:09 - zone name jiadi_sglhp119_vplex_redwood_p2 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV2_AIX119093_fcs0_8E1 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV2_AIX119093_fcs2_8E1 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV1_AIX119093_fcs0_7F0 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV1_AIX119093_fcs2_7F0 vsan 6
+20161212 05:57:09 - zone name RP41_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 05:57:09 - zone name RP41_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 05:57:09 - zone name RP412_VNXe2_AIX119093_fcs0_SPA3 vsan 6
+20161212 05:57:09 - zone name RP412_VNXe2_AIX119093_fcs2_SPB3 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119063_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119063_fcs2 vsan 6
+20161212 05:57:09 - zone name RPRedwood_AIX119063_fcs0 vsan 6
+20161212 05:57:09 - zone name RPRedwood_AIX119063_fcs2 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_pLinux119152_host3 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_pLinux119152_host4 vsan 6
+20161212 05:57:09 - zone name pLinux119152_host3 vsan 6
+20161212 05:57:09 - zone name pLinux119152_host3_ARG vsan 6
+20161212 05:57:09 - zone name pLinux119152_host4_ARG vsan 6
+20161212 05:57:09 - zone name RP_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 05:57:09 - zone name RP_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 05:57:09 - zone name RP_VNXe2_AIX119093_fcs0 vsan 6
+20161212 05:57:09 - zone name RP_VNXe2_AIX119093_fcs2 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119069_Redwood_A_fc2 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119069_Redwood_A_fc0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119065_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119065_fcs2 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119067_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Redwood_AIX119067_fcs2 vsan 6
+20161212 05:57:09 - zone name VPLEX_Argonaut_AIX119065_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Argonaut_AIX119065_fcs2 vsan 6
+20161212 05:57:09 - zone name VPLEX_Argonaut_AIX119096_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_Argonaut_AIX119096_fcs2 vsan 6
+20161212 05:57:09 - zone name jiadi_sglhp119_vplex_argo_p2 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119069_Argonaut2_fc2 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119069_Argonaut2_fc0 vsan 6
+20161212 05:57:09 - zone name Reynold_AIX119059_Redwood_A_fc0 vsan 6
+20161212 05:57:09 - zone name VPLEX_ARG_AIX_AIX119096_fcs0 vsan 6
+20161212 05:57:09 - zone name VPLEX_ARG_AIX_AIX119096_fcs2 vsan 6
+20161212 05:57:09 - zone name vplex_npiv_aix119093 vsan 6
+20161212 05:57:09 - zone name OTTAWA_AIX119096_fcs0_VNX474 vsan 6
+20161212 05:57:09 - zone name OTTAWA_AIX119096_fcs2_VNX474 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV1_AIX119093_fcs0_8F0 vsan 6
+20161212 05:57:09 - zone name RP41_VMAXV1_AIX119093_fcs2_8F0 vsan 6
+20161212 05:57:09 - zone name Alex_sglhp119_vplex_site2_p2 vsan 6
+20161212 05:57:13 - 10.108.104.14: execute ssh commands: show zone name VPLEX_Redwood_AIX119025_fcs1 vsan 6 ; show zone name VPLEX_Redwood_AIX119025_fcs3 vsan 6 ; show zone name VPLEX_Redwood_AIX119096_fcs0 vsan 6 ; show zone name VPLEX_Redwood_AIX119096_fcs2 vsan 6 ; show zone name AIX119060_Encap_VNX2 vsan 6 ; show zone name Redwood_AIX119023_fcs1_Metro vsan 6 ; show zone name Redwood_AIX119023_fcs3_Metro vsan 6 ; show zone name jiadi_sglhp119_vplex_redwood_p2 vsan 6 ; show zone name RP41_VMAXV2_AIX119093_fcs0_8E1 vsan 6 ; show zone name RP41_VMAXV2_AIX119093_fcs2_8E1 vsan 6 ; show zone name RP41_VMAXV1_AIX119093_fcs0_7F0 vsan 6 ; show zone name RP41_VMAXV1_AIX119093_fcs2_7F0 vsan 6 ; show zone name RP41_VNX2_AIX119093_fcs0_SPA11 vsan 6 ; show zone name RP41_VNX2_AIX119093_fcs2_SPA11 vsan 6 ; show zone name RP412_VNXe2_AIX119093_fcs0_SPA3 vsan 6 ; show zone name RP412_VNXe2_AIX119093_fcs2_SPB3 vsan 6 ; show zone name VPLEX_Redwood_AIX119063_fcs0 vsan 6 ; show zone name VPLEX_Redwood_AIX119063_fcs2 vsan 6 ; show zone name RPRedwood_AIX119063_fcs0 vsan 6 ; show zone name RPRedwood_AIX119063_fcs2 vsan 6 ; show zone name VPLEX_Redwood_pLinux119152_host3 vsan 6 ; show zone name VPLEX_Redwood_pLinux119152_host4 vsan 6 ; show zone name pLinux119152_host3 vsan 6 ; show zone name pLinux119152_host3_ARG vsan 6 ; show zone name pLinux119152_host4_ARG vsan 6 ; show zone name RP_VNX2_AIX119093_fcs0_SPA11 vsan 6 ; show zone name RP_VNX2_AIX119093_fcs2_SPA11 vsan 6 ; show zone name RP_VNXe2_AIX119093_fcs0 vsan 6 ; show zone name RP_VNXe2_AIX119093_fcs2 vsan 6 ; show zone name Reynold_AIX119069_Redwood_A_fc2 vsan 6 ; show zone name Reynold_AIX119069_Redwood_A_fc0 vsan 6 ; show zone name VPLEX_Redwood_AIX119065_fcs0 vsan 6 ; show zone name VPLEX_Redwood_AIX119065_fcs2 vsan 6 ; show zone name VPLEX_Redwood_AIX119067_fcs0 vsan 6 ; show zone name VPLEX_Redwood_AIX119067_fcs2 vsan 6 ; show zone name VPLEX_Argonaut_AIX119065_fcs0 vsan 6 ; show zone name VPLEX_Argonaut_AIX119065_fcs2 vsan 6 ; show zone name VPLEX_Argonaut_AIX119096_fcs0 vsan 6 ; show zone name VPLEX_Argonaut_AIX119096_fcs2 vsan 6 ; show zone name jiadi_sglhp119_vplex_argo_p2 vsan 6 ; show zone name Reynold_AIX119069_Argonaut2_fc2 vsan 6 ; show zone name Reynold_AIX119069_Argonaut2_fc0 vsan 6 ; show zone name Reynold_AIX119059_Redwood_A_fc0 vsan 6 ; show zone name Alex_sglhp119_vplex_site2_p2 vsan 6 ; show zone name IVRZ_AIX_IVR_AIX119144_FCS1 vsan 6 ; show zone name VPLEX_ARG_AIX_AIX119096_fcs0 vsan 6 ; show zone name VPLEX_ARG_AIX_AIX119096_fcs2 vsan 6 ; show zone name vplex_npiv_aix119093 vsan 6 ; show zone name OTTAWA_AIX119096_fcs0_VNX474 vsan 6 ; show zone name OTTAWA_AIX119096_fcs2_VNX474 vsan 6 ; show zone name RP41_VMAXV1_AIX119093_fcs0_8F0 vsan 6 ; show zone name RP41_VMAXV1_AIX119093_fcs2_8F0
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119025_fcs1 vsan 6
+20161212 05:57:13 -   pwwn 10:00:00:00:c9:74:92:61
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119025_fcs3 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:01:29:ab:00:16
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119096_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1e
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 -   pwwn c0:01:44:87:82:68:82:00
+20161212 05:57:13 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119096_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:2a
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 -   pwwn c0:01:44:87:82:68:82:00
+20161212 05:57:13 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 05:57:13 - zone name AIX119060_Encap_VNX2 vsan 6
+20161212 05:57:13 -   pwwn 10:00:00:00:c9:74:c0:a5
+20161212 05:57:13 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 05:57:13 -   pwwn 50:06:01:6d:08:60:2e:0f
+20161212 05:57:13 - zone name Redwood_AIX119023_fcs1_Metro vsan 6
+20161212 05:57:13 -   pwwn 10:00:00:00:c9:74:a4:bf
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:fa:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:fa:02
+20161212 05:57:13 - zone name Redwood_AIX119023_fcs3_Metro vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:01:29:ab:00:22
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:fa:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:fa:02
+20161212 05:57:13 - zone name jiadi_sglhp119_vplex_redwood_p2 vsan 6
+20161212 05:57:13 -   pwwn 50:01:43:80:01:45:b0:40 [hpint119_h1p0]
+20161212 05:57:13 -   pwwn c0:01:44:87:83:08:82:00
+20161212 05:57:13 - zone name RP41_VMAXV2_AIX119093_fcs0_8E1 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 05:57:13 -   pwwn 50:00:09:72:08:2f:a9:1d
+20161212 05:57:13 - zone name RP41_VMAXV2_AIX119093_fcs2_8E1 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 05:57:13 -   pwwn 50:00:09:72:08:2f:a9:1d
+20161212 05:57:13 - zone name RP41_VMAXV1_AIX119093_fcs0_7F0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 05:57:13 -   pwwn 50:00:09:72:c0:01:6d:58
+20161212 05:57:13 - zone name RP41_VMAXV1_AIX119093_fcs2_7F0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 05:57:13 -   pwwn 50:00:09:72:c0:01:6d:58
+20161212 05:57:13 - zone name RP41_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 05:57:13 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 05:57:13 - zone name RP41_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 05:57:13 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 05:57:13 - zone name RP412_VNXe2_AIX119093_fcs0_SPA3 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 05:57:13 -   pwwn 50:06:01:67:08:e0:07:be
+20161212 05:57:13 - zone name RP412_VNXe2_AIX119093_fcs2_SPB3 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 05:57:13 -   pwwn 50:06:01:6f:08:e0:07:be
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119063_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:60
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:f1:02
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119063_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:5c
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:f1:02
+20161212 05:57:13 - zone name RPRedwood_AIX119063_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:60
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:fa:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:fa:02
+20161212 05:57:13 - zone name RPRedwood_AIX119063_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:5c
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:fa:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:fa:02
+20161212 05:57:13 - zone name VPLEX_Redwood_pLinux119152_host3 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:05:09:69:00:52
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:f1:02
+20161212 05:57:13 - zone name VPLEX_Redwood_pLinux119152_host4 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:05:09:69:00:54
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:f1:02
+20161212 05:57:13 - zone name pLinux119152_host3 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:05:09:69:00:52
+20161212 05:57:13 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 05:57:13 - zone name pLinux119152_host3_ARG vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:05:09:69:00:52
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 - zone name pLinux119152_host4_ARG vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:05:09:69:00:54
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 - zone name RP_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 05:57:13 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 05:57:13 - zone name RP_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 05:57:13 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 05:57:13 - zone name RP_VNXe2_AIX119093_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 05:57:13 -   pwwn 50:06:01:67:08:e0:07:be
+20161212 05:57:13 -   pwwn 50:06:01:6f:08:e0:07:be
+20161212 05:57:13 - zone name RP_VNXe2_AIX119093_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 05:57:13 -   pwwn 50:06:01:67:08:e0:07:be
+20161212 05:57:13 -   pwwn 50:06:01:6f:08:e0:07:be
+20161212 05:57:13 - zone name Reynold_AIX119069_Redwood_A_fc2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:80
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 - zone name Reynold_AIX119069_Redwood_A_fc0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:7c
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119065_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:72
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 -   pwwn c0:01:44:87:82:68:82:00
+20161212 05:57:13 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119065_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:6e
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 -   pwwn c0:01:44:87:82:68:82:00
+20161212 05:57:13 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119067_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:8a
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 - zone name VPLEX_Redwood_AIX119067_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:86
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 - zone name VPLEX_Argonaut_AIX119065_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:72
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 - zone name VPLEX_Argonaut_AIX119065_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:6e
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 - zone name VPLEX_Argonaut_AIX119096_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1e
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 - zone name VPLEX_Argonaut_AIX119096_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:2a
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 - zone name jiadi_sglhp119_vplex_argo_p2 vsan 6
+20161212 05:57:13 -   pwwn 50:01:43:80:01:45:b0:42 [hpint119_h1p1]
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:03
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:03
+20161212 05:57:13 - zone name Reynold_AIX119069_Argonaut2_fc2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:80
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 - zone name Reynold_AIX119069_Argonaut2_fc0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:7c
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 - zone name Reynold_AIX119059_Redwood_A_fc0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:02:33:a8:00:7c
+20161212 05:57:13 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 05:57:13 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 05:57:13 - zone name Alex_sglhp119_vplex_site2_p2 vsan 6
+20161212 05:57:13 -   pwwn 50:01:43:80:01:45:b0:42 [hpint119_h1p1]
+20161212 05:57:13 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 05:57:13 - Zone not present
+20161212 05:57:13 - zone name VPLEX_ARG_AIX_AIX119096_fcs0 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:1e
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 - zone name VPLEX_ARG_AIX_AIX119096_fcs2 vsan 6
+20161212 05:57:13 -   pwwn c0:50:76:00:a8:77:00:2a
+20161212 05:57:13 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 05:57:13 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 05:57:13 - zone name vplex_npiv_aix119093 vsan 6
+20161212 05:57:13 - zone name OTTAWA_AIX119096_fcs0_VNX474 vsan 6
+20161212 05:57:13 - zone name OTTAWA_AIX119096_fcs2_VNX474 vsan 6
+20161212 05:57:13 - zone name RP41_VMAXV1_AIX119093_fcs0_8F0 vsan 6
+20161212 05:57:13 - zone name RP41_VMAXV1_AIX119093_fcs2_8F0 vsan 6
+20161212 06:06:10 - 10.108.104.14: execute ssh commands: show zone active vsan 6 | grep "zone name" | grep "119" ; echo "@#$" ; show zone vsan 6 | grep "zone name" | grep "119"
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119025_fcs1 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119025_fcs3 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119096_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119096_fcs2 vsan 6
+20161212 06:06:10 - zone name AIX119060_Encap_VNX2 vsan 6
+20161212 06:06:10 - zone name Redwood_AIX119023_fcs1_Metro vsan 6
+20161212 06:06:10 - zone name Redwood_AIX119023_fcs3_Metro vsan 6
+20161212 06:06:10 - zone name jiadi_sglhp119_vplex_redwood_p2 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV2_AIX119093_fcs0_8E1 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV2_AIX119093_fcs2_8E1 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV1_AIX119093_fcs0_7F0 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV1_AIX119093_fcs2_7F0 vsan 6
+20161212 06:06:10 - zone name RP41_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 06:06:10 - zone name RP41_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 06:06:10 - zone name RP412_VNXe2_AIX119093_fcs0_SPA3 vsan 6
+20161212 06:06:10 - zone name RP412_VNXe2_AIX119093_fcs2_SPB3 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119063_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119063_fcs2 vsan 6
+20161212 06:06:10 - zone name RPRedwood_AIX119063_fcs0 vsan 6
+20161212 06:06:10 - zone name RPRedwood_AIX119063_fcs2 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_pLinux119152_host3 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_pLinux119152_host4 vsan 6
+20161212 06:06:10 - zone name pLinux119152_host3 vsan 6
+20161212 06:06:10 - zone name pLinux119152_host3_ARG vsan 6
+20161212 06:06:10 - zone name pLinux119152_host4_ARG vsan 6
+20161212 06:06:10 - zone name RP_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 06:06:10 - zone name RP_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 06:06:10 - zone name RP_VNXe2_AIX119093_fcs0 vsan 6
+20161212 06:06:10 - zone name RP_VNXe2_AIX119093_fcs2 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119069_Redwood_A_fc2 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119069_Redwood_A_fc0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119065_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119065_fcs2 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119067_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119067_fcs2 vsan 6
+20161212 06:06:10 - zone name VPLEX_Argonaut_AIX119065_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Argonaut_AIX119065_fcs2 vsan 6
+20161212 06:06:10 - zone name VPLEX_Argonaut_AIX119096_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Argonaut_AIX119096_fcs2 vsan 6
+20161212 06:06:10 - zone name jiadi_sglhp119_vplex_argo_p2 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119069_Argonaut2_fc2 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119069_Argonaut2_fc0 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119059_Redwood_A_fc0 vsan 6
+20161212 06:06:10 - zone name Alex_sglhp119_vplex_site2_p2 vsan 6
+20161212 06:06:10 - zone name IVRZ_AIX_IVR_AIX119144_FCS1 vsan 6
+20161212 06:06:10 - @#$
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119025_fcs1 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119025_fcs3 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119096_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119096_fcs2 vsan 6
+20161212 06:06:10 - zone name AIX119060_Encap_VNX2 vsan 6
+20161212 06:06:10 - zone name Redwood_AIX119023_fcs1_Metro vsan 6
+20161212 06:06:10 - zone name Redwood_AIX119023_fcs3_Metro vsan 6
+20161212 06:06:10 - zone name jiadi_sglhp119_vplex_redwood_p2 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV2_AIX119093_fcs0_8E1 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV2_AIX119093_fcs2_8E1 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV1_AIX119093_fcs0_7F0 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV1_AIX119093_fcs2_7F0 vsan 6
+20161212 06:06:10 - zone name RP41_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 06:06:10 - zone name RP41_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 06:06:10 - zone name RP412_VNXe2_AIX119093_fcs0_SPA3 vsan 6
+20161212 06:06:10 - zone name RP412_VNXe2_AIX119093_fcs2_SPB3 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119063_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119063_fcs2 vsan 6
+20161212 06:06:10 - zone name RPRedwood_AIX119063_fcs0 vsan 6
+20161212 06:06:10 - zone name RPRedwood_AIX119063_fcs2 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_pLinux119152_host3 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_pLinux119152_host4 vsan 6
+20161212 06:06:10 - zone name pLinux119152_host3 vsan 6
+20161212 06:06:10 - zone name pLinux119152_host3_ARG vsan 6
+20161212 06:06:10 - zone name pLinux119152_host4_ARG vsan 6
+20161212 06:06:10 - zone name RP_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 06:06:10 - zone name RP_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 06:06:10 - zone name RP_VNXe2_AIX119093_fcs0 vsan 6
+20161212 06:06:10 - zone name RP_VNXe2_AIX119093_fcs2 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119069_Redwood_A_fc2 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119069_Redwood_A_fc0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119065_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119065_fcs2 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119067_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Redwood_AIX119067_fcs2 vsan 6
+20161212 06:06:10 - zone name VPLEX_Argonaut_AIX119065_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Argonaut_AIX119065_fcs2 vsan 6
+20161212 06:06:10 - zone name VPLEX_Argonaut_AIX119096_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_Argonaut_AIX119096_fcs2 vsan 6
+20161212 06:06:10 - zone name jiadi_sglhp119_vplex_argo_p2 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119069_Argonaut2_fc2 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119069_Argonaut2_fc0 vsan 6
+20161212 06:06:10 - zone name Reynold_AIX119059_Redwood_A_fc0 vsan 6
+20161212 06:06:10 - zone name VPLEX_ARG_AIX_AIX119096_fcs0 vsan 6
+20161212 06:06:10 - zone name VPLEX_ARG_AIX_AIX119096_fcs2 vsan 6
+20161212 06:06:10 - zone name vplex_npiv_aix119093 vsan 6
+20161212 06:06:10 - zone name OTTAWA_AIX119096_fcs0_VNX474 vsan 6
+20161212 06:06:10 - zone name OTTAWA_AIX119096_fcs2_VNX474 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV1_AIX119093_fcs0_8F0 vsan 6
+20161212 06:06:10 - zone name RP41_VMAXV1_AIX119093_fcs2_8F0 vsan 6
+20161212 06:06:10 - zone name Alex_sglhp119_vplex_site2_p2 vsan 6
+20161212 06:06:15 - 10.108.104.14: execute ssh commands: show zone name VPLEX_Redwood_AIX119025_fcs1 vsan 6 ; show zone name VPLEX_Redwood_AIX119025_fcs3 vsan 6 ; show zone name VPLEX_Redwood_AIX119096_fcs0 vsan 6 ; show zone name VPLEX_Redwood_AIX119096_fcs2 vsan 6 ; show zone name AIX119060_Encap_VNX2 vsan 6 ; show zone name Redwood_AIX119023_fcs1_Metro vsan 6 ; show zone name Redwood_AIX119023_fcs3_Metro vsan 6 ; show zone name jiadi_sglhp119_vplex_redwood_p2 vsan 6 ; show zone name RP41_VMAXV2_AIX119093_fcs0_8E1 vsan 6 ; show zone name RP41_VMAXV2_AIX119093_fcs2_8E1 vsan 6 ; show zone name RP41_VMAXV1_AIX119093_fcs0_7F0 vsan 6 ; show zone name RP41_VMAXV1_AIX119093_fcs2_7F0 vsan 6 ; show zone name RP41_VNX2_AIX119093_fcs0_SPA11 vsan 6 ; show zone name RP41_VNX2_AIX119093_fcs2_SPA11 vsan 6 ; show zone name RP412_VNXe2_AIX119093_fcs0_SPA3 vsan 6 ; show zone name RP412_VNXe2_AIX119093_fcs2_SPB3 vsan 6 ; show zone name VPLEX_Redwood_AIX119063_fcs0 vsan 6 ; show zone name VPLEX_Redwood_AIX119063_fcs2 vsan 6 ; show zone name RPRedwood_AIX119063_fcs0 vsan 6 ; show zone name RPRedwood_AIX119063_fcs2 vsan 6 ; show zone name VPLEX_Redwood_pLinux119152_host3 vsan 6 ; show zone name VPLEX_Redwood_pLinux119152_host4 vsan 6 ; show zone name pLinux119152_host3 vsan 6 ; show zone name pLinux119152_host3_ARG vsan 6 ; show zone name pLinux119152_host4_ARG vsan 6 ; show zone name RP_VNX2_AIX119093_fcs0_SPA11 vsan 6 ; show zone name RP_VNX2_AIX119093_fcs2_SPA11 vsan 6 ; show zone name RP_VNXe2_AIX119093_fcs0 vsan 6 ; show zone name RP_VNXe2_AIX119093_fcs2 vsan 6 ; show zone name Reynold_AIX119069_Redwood_A_fc2 vsan 6 ; show zone name Reynold_AIX119069_Redwood_A_fc0 vsan 6 ; show zone name VPLEX_Redwood_AIX119065_fcs0 vsan 6 ; show zone name VPLEX_Redwood_AIX119065_fcs2 vsan 6 ; show zone name VPLEX_Redwood_AIX119067_fcs0 vsan 6 ; show zone name VPLEX_Redwood_AIX119067_fcs2 vsan 6 ; show zone name VPLEX_Argonaut_AIX119065_fcs0 vsan 6 ; show zone name VPLEX_Argonaut_AIX119065_fcs2 vsan 6 ; show zone name VPLEX_Argonaut_AIX119096_fcs0 vsan 6 ; show zone name VPLEX_Argonaut_AIX119096_fcs2 vsan 6 ; show zone name jiadi_sglhp119_vplex_argo_p2 vsan 6 ; show zone name Reynold_AIX119069_Argonaut2_fc2 vsan 6 ; show zone name Reynold_AIX119069_Argonaut2_fc0 vsan 6 ; show zone name Reynold_AIX119059_Redwood_A_fc0 vsan 6 ; show zone name Alex_sglhp119_vplex_site2_p2 vsan 6 ; show zone name IVRZ_AIX_IVR_AIX119144_FCS1 vsan 6 ; show zone name VPLEX_ARG_AIX_AIX119096_fcs0 vsan 6 ; show zone name VPLEX_ARG_AIX_AIX119096_fcs2 vsan 6 ; show zone name vplex_npiv_aix119093 vsan 6 ; show zone name OTTAWA_AIX119096_fcs0_VNX474 vsan 6 ; show zone name OTTAWA_AIX119096_fcs2_VNX474 vsan 6 ; show zone name RP41_VMAXV1_AIX119093_fcs0_8F0 vsan 6 ; show zone name RP41_VMAXV1_AIX119093_fcs2_8F0
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119025_fcs1 vsan 6
+20161212 06:06:15 -   pwwn 10:00:00:00:c9:74:92:61
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119025_fcs3 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:01:29:ab:00:16
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119096_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1e
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 -   pwwn c0:01:44:87:82:68:82:00
+20161212 06:06:15 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119096_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:2a
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 -   pwwn c0:01:44:87:82:68:82:00
+20161212 06:06:15 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 06:06:15 - zone name AIX119060_Encap_VNX2 vsan 6
+20161212 06:06:15 -   pwwn 10:00:00:00:c9:74:c0:a5
+20161212 06:06:15 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 06:06:15 -   pwwn 50:06:01:6d:08:60:2e:0f
+20161212 06:06:15 - zone name Redwood_AIX119023_fcs1_Metro vsan 6
+20161212 06:06:15 -   pwwn 10:00:00:00:c9:74:a4:bf
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:fa:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:fa:02
+20161212 06:06:15 - zone name Redwood_AIX119023_fcs3_Metro vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:01:29:ab:00:22
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:fa:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:fa:02
+20161212 06:06:15 - zone name jiadi_sglhp119_vplex_redwood_p2 vsan 6
+20161212 06:06:15 -   pwwn 50:01:43:80:01:45:b0:40 [hpint119_h1p0]
+20161212 06:06:15 -   pwwn c0:01:44:87:83:08:82:00
+20161212 06:06:15 - zone name RP41_VMAXV2_AIX119093_fcs0_8E1 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 06:06:15 -   pwwn 50:00:09:72:08:2f:a9:1d
+20161212 06:06:15 - zone name RP41_VMAXV2_AIX119093_fcs2_8E1 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 06:06:15 -   pwwn 50:00:09:72:08:2f:a9:1d
+20161212 06:06:15 - zone name RP41_VMAXV1_AIX119093_fcs0_7F0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 06:06:15 -   pwwn 50:00:09:72:c0:01:6d:58
+20161212 06:06:15 - zone name RP41_VMAXV1_AIX119093_fcs2_7F0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 06:06:15 -   pwwn 50:00:09:72:c0:01:6d:58
+20161212 06:06:15 - zone name RP41_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 06:06:15 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 06:06:15 - zone name RP41_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 06:06:15 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 06:06:15 - zone name RP412_VNXe2_AIX119093_fcs0_SPA3 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 06:06:15 -   pwwn 50:06:01:67:08:e0:07:be
+20161212 06:06:15 - zone name RP412_VNXe2_AIX119093_fcs2_SPB3 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 06:06:15 -   pwwn 50:06:01:6f:08:e0:07:be
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119063_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:60
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:f1:02
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119063_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:5c
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:f1:02
+20161212 06:06:15 - zone name RPRedwood_AIX119063_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:60
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:fa:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:fa:02
+20161212 06:06:15 - zone name RPRedwood_AIX119063_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:5c
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:fa:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:fa:02
+20161212 06:06:15 - zone name VPLEX_Redwood_pLinux119152_host3 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:05:09:69:00:52
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:f1:02
+20161212 06:06:15 - zone name VPLEX_Redwood_pLinux119152_host4 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:05:09:69:00:54
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:f1:02
+20161212 06:06:15 - zone name pLinux119152_host3 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:05:09:69:00:52
+20161212 06:06:15 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 06:06:15 - zone name pLinux119152_host3_ARG vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:05:09:69:00:52
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 - zone name pLinux119152_host4_ARG vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:05:09:69:00:54
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 - zone name RP_VNX2_AIX119093_fcs0_SPA11 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 06:06:15 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 06:06:15 - zone name RP_VNX2_AIX119093_fcs2_SPA11 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 06:06:15 -   pwwn 50:06:01:65:08:60:2e:0f
+20161212 06:06:15 - zone name RP_VNXe2_AIX119093_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:12
+20161212 06:06:15 -   pwwn 50:06:01:67:08:e0:07:be
+20161212 06:06:15 -   pwwn 50:06:01:6f:08:e0:07:be
+20161212 06:06:15 - zone name RP_VNXe2_AIX119093_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1a
+20161212 06:06:15 -   pwwn 50:06:01:67:08:e0:07:be
+20161212 06:06:15 -   pwwn 50:06:01:6f:08:e0:07:be
+20161212 06:06:15 - zone name Reynold_AIX119069_Redwood_A_fc2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:80
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 - zone name Reynold_AIX119069_Redwood_A_fc0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:7c
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119065_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:72
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 -   pwwn c0:01:44:87:82:68:82:00
+20161212 06:06:15 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119065_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:6e
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 -   pwwn c0:01:44:87:82:68:82:00
+20161212 06:06:15 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119067_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:8a
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 - zone name VPLEX_Redwood_AIX119067_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:86
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 - zone name VPLEX_Argonaut_AIX119065_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:72
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 - zone name VPLEX_Argonaut_AIX119065_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:6e
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 - zone name VPLEX_Argonaut_AIX119096_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1e
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 - zone name VPLEX_Argonaut_AIX119096_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:2a
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 - zone name jiadi_sglhp119_vplex_argo_p2 vsan 6
+20161212 06:06:15 -   pwwn 50:01:43:80:01:45:b0:42 [hpint119_h1p1]
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:03
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:03
+20161212 06:06:15 - zone name Reynold_AIX119069_Argonaut2_fc2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:80
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 - zone name Reynold_AIX119069_Argonaut2_fc0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:7c
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 - zone name Reynold_AIX119059_Redwood_A_fc0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:02:33:a8:00:7c
+20161212 06:06:15 -   pwwn 50:00:14:42:f0:02:68:02
+20161212 06:06:15 -   pwwn 50:00:14:42:e0:02:f1:02
+20161212 06:06:15 - zone name Alex_sglhp119_vplex_site2_p2 vsan 6
+20161212 06:06:15 -   pwwn 50:01:43:80:01:45:b0:42 [hpint119_h1p1]
+20161212 06:06:15 -   pwwn c0:01:44:87:82:f1:02:00
+20161212 06:06:15 - Zone not present
+20161212 06:06:15 - zone name VPLEX_ARG_AIX_AIX119096_fcs0 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:1e
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 - zone name VPLEX_ARG_AIX_AIX119096_fcs2 vsan 6
+20161212 06:06:15 -   pwwn c0:50:76:00:a8:77:00:2a
+20161212 06:06:15 -   pwwn 50:00:14:42:60:04:d5:02
+20161212 06:06:15 -   pwwn 50:00:14:42:70:04:d6:02
+20161212 06:06:15 - zone name vplex_npiv_aix119093 vsan 6
+20161212 06:06:15 - zone name OTTAWA_AIX119096_fcs0_VNX474 vsan 6
+20161212 06:06:15 - zone name OTTAWA_AIX119096_fcs2_VNX474 vsan 6
+20161212 06:06:15 - zone name RP41_VMAXV1_AIX119093_fcs0_8F0 vsan 6
+20161212 06:06:15 - zone name RP41_VMAXV1_AIX119093_fcs2_8F0 vsan 6
