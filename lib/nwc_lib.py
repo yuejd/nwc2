@@ -535,10 +535,11 @@ def zone_search_brc(ipaddr, username, password, keyword, vsan):
                 continue
 
         con = Connection(ipaddr, username, password)
-        cmd = "zoneshow " + "; zoneshow ".join([zone_info_list[i][0] for i in xrange(len(zone_info_list))])
+        #cmd = "zoneshow " + "; zoneshow ".join([zone_info_list[i][0] for i in xrange(len(zone_info_list))])
+        cmd = "zoneshow *" + keyword + "*"
         output = con.ssh_cmds([cmd])
         if output:
-            zone_wwns = output.strip().split("\n\n")
+            zone_wwns = output.strip().split("\n zon")
             for i in xrange(len(zone_info_list)):
                 for zone_wwn in zone_wwns:
                     if "\t"+zone_info_list[i][0]+"\t" in zone_wwn:
