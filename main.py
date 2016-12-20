@@ -4,7 +4,7 @@
 #   Author  :   Jiadi Yue
 #   E-mail  :   jiadi.yue@emc.com
 #   Date    :   15/04/17 13:14:19
-#   Desc    :   main app 
+#   Desc    :   main app
 #
 
 import tornado.httpserver
@@ -17,7 +17,7 @@ class Application(tornado.web.Application):
     def __init__(self):
         settings = dict(
             blog_title = u"NWC WEB V2",
-            template_path = os.path.join(os.path.dirname(__file__), "templates"),  
+            template_path = os.path.join(os.path.dirname(__file__), "templates"),
             static_path = os.path.join(os.path.dirname(__file__), "static"),
             #ui_modules = {"Entry1": EntryModule, "topx": TopXModule},
             #xsrf_cookies = True,

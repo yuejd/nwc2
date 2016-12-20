@@ -568,11 +568,14 @@ def zone_search_cis(ipaddr, username, password, keyword, vsan):
             None
     """
     con = Connection(ipaddr, username, password)
-    cmd = 'show zone active vsan ' + vsan + ' | grep "zone name" | grep "' + keyword + '" ; echo "@#$" ; show zone vsan ' + vsan + ' | grep "zone name" | grep "' + keyword + '"'
+    #cmd = 'show zone active vsan ' + vsan + ' | grep "zone name" | grep "' + keyword + '" ; echo "@#$" ; show zone vsan ' + vsan + ' | grep "zone name" | grep "' + keyword + '"'
+    #combine get-wwns-command within one command
+    cmd = 'show zone active vsan ' + vsan + ' | grep "zone name" | grep "' + keyword + '" | no-more ; echo "@#$" ; show zone vsan ' + vsan + ' | grep "zone name" | grep "' + keyword + '" | no-more ; echo "@#$" ; show zone vsan ' + vsan + ' | section "zone name" | section ' + keyword + ' | no-more'
     output = con.ssh_cmds([cmd])
     zone_info_list = []
     if output:
-        act_zones, zones = output.split("@#$\n")
+        #act_zones, zones = output.split("@#$\n")
+        act_zones, zones, zones_wwns = output.split("@#$\n")
         if act_zones:
             act_zones = act_zones.splitlines()
             for i in xrange(len(act_zones)):
@@ -594,12 +597,13 @@ def zone_search_cis(ipaddr, username, password, keyword, vsan):
             else:
                 continue
 
-        con = Connection(ipaddr, username, password)
-        join_str = " vsan " + vsan + " ; show zone name "
-        cmd = "show zone name " + join_str.join([zone_info_list[i][0] for i in xrange(len(zone_info_list))])
-        output = con.ssh_cmds([cmd])
-        if output:
-            zone_wwns = output.strip().split("\nzone")
+        #con = Connection(ipaddr, username, password)
+        #join_str = " vsan " + vsan + " ; show zone name "
+        #cmd = "show zone name " + join_str.join([zone_info_list[i][0] for i in xrange(len(zone_info_list))])
+        #output = con.ssh_cmds([cmd])
+        #if output:
+        if zones_wwns:
+            zone_wwns = zones_wwns.strip().split("\nzone")
             for i in xrange(len(zone_info_list)):
                 for zone_wwn in zone_wwns:
                     if " "+zone_info_list[i][0]+" " in zone_wwn:
