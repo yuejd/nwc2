@@ -508,11 +508,14 @@ def zone_search_brc(ipaddr, username, password, keyword, vsan):
             None
     """
     con = Connection(ipaddr, username, password)
-    cmd = 'cfgactvshow | grep "zone:" | grep "' + keyword + '"; echo "@#$"; zoneshow | grep "zone:" | grep "' + keyword + '"'
+    #cmd = 'cfgactvshow | grep "zone:" | grep "' + keyword + '"; echo "@#$"; zoneshow | grep "zone:" | grep "' + keyword + '"'
+    #combine get-wwn-command within one command
+    cmd = 'cfgactvshow | grep "zone:" | grep "' + keyword + '"; echo "@#$"; zoneshow | grep "zone:" | grep "' + keyword + '"; echo "@#$"; zoneshow *' + keyword + '*'
     output = con.ssh_cmds([cmd])
     zone_info_list = []
     if output:
-        act_zones, zones = output.split("@#$\n")
+        #act_zones, zones = output.split("@#$\n")
+        act_zones, zones, zones_wwns = output.split("@#$\n")
         if act_zones:
             act_zones = act_zones.splitlines()
             for i in xrange(len(act_zones)):
@@ -534,12 +537,13 @@ def zone_search_brc(ipaddr, username, password, keyword, vsan):
             else:
                 continue
 
-        con = Connection(ipaddr, username, password)
-        #cmd = "zoneshow " + "; zoneshow ".join([zone_info_list[i][0] for i in xrange(len(zone_info_list))])
-        cmd = "zoneshow *" + keyword + "*"
-        output = con.ssh_cmds([cmd])
-        if output:
-            zone_wwns = output.strip().split("\n zon")
+        #con = Connection(ipaddr, username, password)
+        ##cmd = "zoneshow " + "; zoneshow ".join([zone_info_list[i][0] for i in xrange(len(zone_info_list))])
+        #cmd = "zoneshow *" + keyword + "*"
+        #output = con.ssh_cmds([cmd])
+        #if output:
+        if zones_wwns:
+            zone_wwns = zones_wwns.strip().split("\n zon")
             for i in xrange(len(zone_info_list)):
                 for zone_wwn in zone_wwns:
                     if "\t"+zone_info_list[i][0]+"\t" in zone_wwn:
