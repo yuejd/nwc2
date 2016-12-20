@@ -643,5 +643,5 @@ if __name__ == "__main__":
     #print out
     #out = nodefind_cis("10.103.116.38", "emc", "Emc12345", ["c0:50:76:02:1d:3d:00:2e",  "c0:50:76:02:1d:3d:00:2c","c0:50:76:02:1d:3d:00:2e",  "c0:50:76:02:1d:3d:00:2c"])
     # session will close in this switch
-    #out = zone_search_bro("10.103.116.49", "cd", "password", "jiadi", "5")
+    out = zone_search_bro("10.103.116.49", "cd", "password", "jiadi", "5")
     print out

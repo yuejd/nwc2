@@ -44,6 +44,7 @@ class SearchHandler(BaseHandler):
         
         rtn_zone_search = zone_search_func(switch_ip, switch_user, switch_passwd, keyword, vsan)
         if rtn_zone_search:
+            print "=========================###################search finished################+++++++++++++++++++++++++++++++++"
             self.write(self.render_string("zonesearchresult.html",
                                           zones = rtn_zone_search))
         else:
