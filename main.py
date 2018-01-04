@@ -13,6 +13,7 @@ import tornado.web
 import os
 import sys
 
+
 class Application(tornado.web.Application):
     def __init__(self):
         settings = dict(
@@ -28,10 +29,12 @@ class Application(tornado.web.Application):
         from urls import routes as handlers
         tornado.web.Application.__init__(self, handlers, **settings)
 
+
 def main(port = 8888):
     http_server = tornado.httpserver.HTTPServer(Application())
     http_server.listen(port)
     tornado.ioloop.IOLoop.instance().start()
+
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
