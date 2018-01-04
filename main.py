@@ -17,20 +17,20 @@ import sys
 class Application(tornado.web.Application):
     def __init__(self):
         settings = dict(
-            blog_title = u"NWC WEB V2",
-            template_path = os.path.join(os.path.dirname(__file__), "templates"),
-            static_path = os.path.join(os.path.dirname(__file__), "static"),
-            #ui_modules = {"Entry1": EntryModule, "topx": TopXModule},
-            #xsrf_cookies = True,
-            #cookie_secret = "tjNXzvzDSOeNZucdZsW9KvmBAmTCH0a0okEyJCeA7EQ=",
-            debug = True,
-            #login_url = "/login"
+            blog_title=u"NWC WEB V2",
+            template_path=os.path.join(os.path.dirname(__file__), "templates"),
+            static_path=os.path.join(os.path.dirname(__file__), "static"),
+            # ui_modules = {"Entry1": EntryModule, "topx": TopXModule},
+            # xsrf_cookies = True,
+            # cookie_secret = "tjNXzvzDSOeNZucdZsW9KvmBAmTCH0a0okEyJCeA7EQ=",
+            debug=True,
+            # login_url = "/login"
         )
         from urls import routes as handlers
         tornado.web.Application.__init__(self, handlers, **settings)
 
 
-def main(port = 8888):
+def main(port=8888):
     http_server = tornado.httpserver.HTTPServer(Application())
     http_server.listen(port)
     tornado.ioloop.IOLoop.instance().start()
